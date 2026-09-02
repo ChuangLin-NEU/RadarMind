@@ -1,0 +1,12 @@
+# Table 1. Dataset / radar / representation / protocol
+
+| item | value |
+|---|---|
+| corpus | CI4R multi-frequency HAR |
+| radars | 10 / 24 / 77 GHz, timestamp-paired |
+| n_acquisitions | 327 |
+| actions | 7 |
+| split_train_val_test | 229/49/49 |
+| official_representation | public plotted PNG |
+| numerical_doppler | S(normalized time, Doppler Hz) |
+| velocity_maps | 24/77 only; common v in [-3.028, 3.027] m/s |

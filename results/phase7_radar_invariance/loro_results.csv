@@ -1,0 +1,7 @@
+model,protocol,train_radars,test_radar,activity_accuracy,macro_f1,n_test,note
+M0,leave_one_radar_out,10+24,77GHz,0.22448979591836735,0.09803100125680772,49,LORO; 77GHz unused in train/val/norm/contrastive/domain/HP
+M3,leave_one_radar_out,10+24,77GHz,0.16326530612244897,0.040100250626566414,49,LORO; 77GHz unused in train/val/norm/contrastive/domain/HP
+M0,leave_one_radar_out,10+77,24GHz,0.3469387755102041,0.290021645021645,49,LORO; 24GHz unused in train/val/norm/contrastive/domain/HP
+M3,leave_one_radar_out,10+77,24GHz,0.3469387755102041,0.292166563595135,49,LORO; 24GHz unused in train/val/norm/contrastive/domain/HP
+M0,leave_one_radar_out,24+77,10GHz,0.6326530612244898,0.592512077294686,49,LORO; 10GHz unused in train/val/norm/contrastive/domain/HP
+M3,leave_one_radar_out,24+77,10GHz,0.5306122448979592,0.43180097680097684,49,LORO; 10GHz unused in train/val/norm/contrastive/domain/HP

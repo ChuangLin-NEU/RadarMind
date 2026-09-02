@@ -1,0 +1,16 @@
+{
+  "run_id": "within_77",
+  "protocol": "acquisition_timestamp_disjoint",
+  "train_radar": "77GHz",
+  "test_radar": "77GHz",
+  "method": "source_only",
+  "n_classes": 7,
+  "seed": 42,
+  "accuracy": 0.9215686274509803,
+  "macro_f1": 0.9256382715029332,
+  "n_train": 233,
+  "n_val": 50,
+  "n_test": 51,
+  "best_val_acc": 0.94,
+  "note": "source-only; test radar unseen in training"
+}

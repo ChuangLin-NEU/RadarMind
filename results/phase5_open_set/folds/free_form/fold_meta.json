@@ -1,0 +1,21 @@
+{
+  "held_out": "free_form",
+  "known_classes": [
+    "T pose",
+    "pose_1",
+    "pose_2",
+    "pose_3",
+    "pose_4",
+    "pose_5",
+    "pose_6",
+    "pose_7",
+    "pose_8",
+    "pose_9",
+    "pose_10",
+    "walk"
+  ],
+  "n_blocked_unseen_non_test": 581,
+  "n_test_unknown": 103,
+  "protocol": "LOAO + subject_independent",
+  "note": "unseen action excluded from train, val, and later threshold fitting"
+}

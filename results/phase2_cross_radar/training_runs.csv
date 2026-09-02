@@ -1,0 +1,12 @@
+run_id,protocol,train_radar,test_radar,method,n_classes,seed,accuracy,macro_f1,n_train,n_val,n_test,best_val_acc,note
+within_10,acquisition_timestamp_disjoint,10GHz,10GHz,source_only,7,42,0.8431372549019608,0.8545112781954888,243,52,51,0.9230769230769231,source-only; test radar unseen in training
+within_24,acquisition_timestamp_disjoint,24GHz,24GHz,source_only,7,42,0.8979591836734694,0.8974709501025291,229,49,49,0.8979591836734694,source-only; test radar unseen in training
+within_77,acquisition_timestamp_disjoint,77GHz,77GHz,source_only,7,42,0.9215686274509803,0.9256382715029332,233,50,51,0.94,source-only; test radar unseen in training
+cross_77_to_10,acquisition_timestamp_disjoint,77GHz,10GHz,source_only,7,42,0.27450980392156865,0.22085444106720703,233,50,51,0.94,source-only; test radar unseen in training
+cross_10_to_77,acquisition_timestamp_disjoint,10GHz,77GHz,source_only,7,42,0.37254901960784315,0.287569573283859,243,52,51,0.9230769230769231,source-only; test radar unseen in training
+cross_77_to_24,acquisition_timestamp_disjoint,77GHz,24GHz,source_only,7,42,0.16326530612244897,0.040100250626566414,233,50,49,0.94,source-only; test radar unseen in training
+cross_24_to_77,acquisition_timestamp_disjoint,24GHz,77GHz,source_only,7,42,0.0392156862745098,0.025974025974025976,229,49,51,0.8979591836734694,source-only; test radar unseen in training
+cross_10_to_24,acquisition_timestamp_disjoint,10GHz,24GHz,source_only,7,42,0.14285714285714285,0.03571428571428571,243,52,49,0.9230769230769231,source-only; test radar unseen in training
+cross_24_to_10,acquisition_timestamp_disjoint,24GHz,10GHz,source_only,7,42,0.35294117647058826,0.2216831948539266,229,49,51,0.8979591836734694,source-only; test radar unseen in training
+coral_uda_77_to_10,acquisition_timestamp_disjoint,77GHz,10GHz,coral_uda,7,42,0.19607843137254902,0.1082766439909297,233,50,51,0.8,UDA uses target train unlabeled only
+coral_uda_77_to_24,acquisition_timestamp_disjoint,77GHz,24GHz,coral_uda,7,42,0.14285714285714285,0.03571428571428571,233,50,49,0.66,UDA uses target train unlabeled only

@@ -1,0 +1,94 @@
+{
+  "R1_available": "YES",
+  "raw_source_10": "PLOTTED_PNG（官方 628×1178；无 XeThru raw / 无 sx_scaled.mat）",
+  "raw_source_24": "PLOTTED_PNG（官方 128×128；无 Ancortek raw / 无 header fc,Tsweep）",
+  "raw_source_77": "PLOTTED_PNG（官方 804×1475；AIRHAR 数值链未用于 327 子集）",
+  "R0_radar_fingerprint": "1.000",
+  "R1_radar_fingerprint": "1.000",
+  "cross": {
+    "10→10": {
+      "R0": 0.843,
+      "R1": 0.9607843137254902
+    },
+    "24→24": {
+      "R0": 0.898,
+      "R1": 0.8571428571428571
+    },
+    "77→77": {
+      "R0": 0.922,
+      "R1": 0.8235294117647058
+    },
+    "77→10": {
+      "R0": 0.275,
+      "R1": 0.17647058823529413
+    },
+    "10→77": {
+      "R0": 0.373,
+      "R1": 0.29411764705882354
+    },
+    "77→24": {
+      "R0": 0.163,
+      "R1": 0.02040816326530612
+    },
+    "24→77": {
+      "R0": 0.039,
+      "R1": 0.13725490196078433
+    },
+    "10→24": {
+      "R0": 0.143,
+      "R1": 0.5102040816326531
+    },
+    "24→10": {
+      "R0": 0.353,
+      "R1": 0.3333333333333333
+    }
+  },
+  "radar_id_R0_probe": 1.0,
+  "radar_id_R1_baseline": 1.0,
+  "radar_id_M3": 1.0,
+  "activity_R1_baseline": 0.9251700680272109,
+  "activity_M3": 0.9455782312925171,
+  "loro": {
+    "10+24→77": {
+      "baseline": 0.22448979591836735,
+      "M3": 0.16326530612244897
+    },
+    "10+77→24": {
+      "baseline": 0.3469387755102041,
+      "M3": 0.3469387755102041
+    },
+    "24+77→10": {
+      "baseline": 0.6326530612244898,
+      "M3": 0.5306122448979592
+    }
+  },
+  "Q1": "R0 整图 PNG Radar-ID（像素）=1.000。R1 裁边后=1.000。单源 cross 均值变化 0.021。24→77 0.039→0.137；77→24 0.163→0.020。 个别方向（尤其涉及 24 GHz 色条）变化大，但六条 cross 没有一起抬升，像素 Radar-ID 仍为 1。",
+  "Q2": "R1 运动编码器 Radar-ID probe=1.000（R0 Phase 3 为 1.000）。 统一 representation 后仍能按雷达分开。",
+  "Q3": "M3 Radar-ID 1.000→1.000；Activity Probe 0.925→0.946；LORO 10+24→77 0.224→0.163；10+77→24 0.347→0.347；24+77→10 0.633→0.531。 未同时满足去雷达信息且保住动作/泛化。",
+  "preprocess_confound": "MODERATE",
+  "sensor_domain_shift": "STRONG",
+  "radar_invariance_improved": "NO",
+  "learn_motion_not_sensor": "NO",
+  "within_R1": {
+    "10": 0.9607843137254902,
+    "24": 0.8571428571428571,
+    "77": 0.8235294117647058
+  },
+  "worst_cross_R1": "77→24",
+  "pixel_radar_id": {
+    "R0": 1.0,
+    "R1": 1.0
+  },
+  "retrieval_action_top1": {
+    "M0": 0.8401360544217686,
+    "M3": 0.9251700680272109
+  },
+  "gate": {
+    "r1_constructed": true,
+    "r1_source": "PLOTTED_PNG",
+    "physical_alignment": false,
+    "within_radar_reasonable": true,
+    "enter_part_d": true,
+    "reason": "R1 is fair-PNG crop + common post; within-radar Acc>=0.70"
+  }
+}

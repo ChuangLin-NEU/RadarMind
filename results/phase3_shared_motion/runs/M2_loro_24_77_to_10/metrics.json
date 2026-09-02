@@ -1,0 +1,19 @@
+{
+  "run_id": "M2_loro_24_77_to_10",
+  "model": "M2",
+  "protocol": "leave_one_radar_out",
+  "train_radars": "24GHz+77GHz",
+  "test_radar": "10GHz",
+  "lambda_contrast": 0.1,
+  "physics_aug": true,
+  "seed": 42,
+  "n_train_acq": 229,
+  "n_val_acq": 49,
+  "n_test_acq": 49,
+  "n_train_views": 458,
+  "best_val_acc": 0.8877551020408163,
+  "activity_accuracy": 0.3673469387755102,
+  "macro_f1": 0.26535038249809045,
+  "status": "ok",
+  "note": "Task B LORO Shared Motion; pairs only among ['24GHz', '77GHz']; held-out 10GHz unused"
+}

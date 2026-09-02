@@ -1,0 +1,48 @@
+version: 1
+exclude:
+  - path: .env
+    reason: Contains private API credentials.
+  - path: .env.*
+    reason: Local environment files. .env.example is the exception.
+  - path: data/
+    reason: Raw or redistributed source datasets are excluded.
+  - path: "*.h5"
+    reason: Packed spectrogram / HDF5 dataset copies.
+  - path: "*.pt"
+    reason: Large checkpoints are distributed separately if required.
+  - path: "*.pth"
+    reason: Checkpoint weights are not in git.
+  - path: "*.ckpt"
+    reason: Checkpoint weights are not in git.
+  - path: "*.npz"
+    reason: Derived caches reproduce dataset content and are rebuilt locally.
+  - path: "*.npy"
+    reason: Array caches stay local.
+  - path: "*.tar"
+    reason: Large derived archives such as cache_r2.tar.
+  - path: third_party/
+    reason: Nested upstream clones; cite URLs instead of vendoring.
+  - path: competitors/
+    reason: External repository copy; not required for frozen RadarMind tables.
+  - path: build_artifacts/
+    reason: Presentation toolchain and node_modules.
+  - path: gpu_jobs/
+    reason: Machine-specific launchers.
+  - path: experiments/png_physics_probe/data/
+    reason: Side-experiment CSVs with local paths.
+  - path: "*.docx"
+    reason: Draft manuscript files stay local.
+  - path: "*.pptx"
+    reason: Presentation drafts stay local.
+  - path: "*.pdf"
+    reason: Current manuscript/figure PDFs are not in the first commit.
+  - path: results/data/
+    reason: Packed HDF5 dataset copies.
+  - path: results/splits/
+    reason: Legacy LOSO HDF5 packs.
+  - path: results/phase1_pointcloud/failed_samples.csv
+    reason: Path dump with lab filesystem entries.
+  - path: notes/
+    reason: Internal development notes.
+  - path: requirements_lock.txt
+    reason: Machine-specific lock including a conda file:// URL.

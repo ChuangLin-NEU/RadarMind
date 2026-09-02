@@ -1,0 +1,20 @@
+{
+  "run_id": "R1_M3_loro_10_24_to_77",
+  "model": "M3",
+  "protocol": "leave_one_radar_out",
+  "train_radars": "10GHz+24GHz",
+  "test_radar": "77GHz",
+  "lambda_contrast": 0.1,
+  "lambda_adv": 0.01,
+  "representation": "R1",
+  "seed": 42,
+  "n_train_acq": 229,
+  "n_val_acq": 49,
+  "n_test_acq": 49,
+  "n_train_views": 458,
+  "best_val_acc": 0.9693877551020408,
+  "activity_accuracy": 0.16326530612244897,
+  "macro_f1": 0.040100250626566414,
+  "status": "ok",
+  "note": "LORO R1 M3; domain head sees only ['10GHz', '24GHz']; 77GHz unused"
+}

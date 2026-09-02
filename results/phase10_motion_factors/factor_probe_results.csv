@@ -1,0 +1,7 @@
+subset,n_factors,factors,activity_accuracy,activity_macro_f1,radar_id_accuracy,radar_id_macro_f1,note
+all_raw,38,38 factors,0.6870748299319728,0.6932161307585293,1.0,1.0,RAW factors; scaler inside probe
+all_global,38,38 factors,0.6870748299319728,0.6932161307585293,1.0,1.0,TRAIN global z-score; not per-radar
+all_per_radar,38,38 factors,0.7687074829931972,0.7751715452467333,0.3333333333333333,0.16666666666666666,per-radar TRAIN z-score; known-radar diagnostic only
+stable_global,8,sparsity;spectral_entropy;temporal_entropy;dominant_temporal_freq;autocorr_peak;doppler_std_hz;periodicity_score;time_centroid,0.4897959183673469,0.4553049698223712,0.9591836734693877,0.9591836734693878,top 8 lowest intra-acq CV on TRAIN
+activity_top_global,8,abs_doppler_centroid_hz;low_doppler_energy_frac;mid_doppler_energy_frac;high_doppler_energy_frac;doppler_std_hz;peak_to_mean_ratio;time_spread;temporal_energy_range,0.5238095238095238,0.5209977397552428,0.9251700680272109,0.924868373362159,top 8 eta2_activity on TRAIN
+radar_specific_global,8,peak_doppler_magnitude;n_temporal_peaks;sparsity;temporal_energy_mean;doppler_envelope_roughness;temporal_entropy;active_duration_frac;energy_offset_tau,0.46258503401360546,0.4368232471332201,0.9863945578231292,0.9863945578231292,top 8 eta2_radar on TRAIN

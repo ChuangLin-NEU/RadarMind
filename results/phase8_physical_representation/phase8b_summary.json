@@ -1,0 +1,30 @@
+{
+  "archive_status": "FOUND",
+  "archive_path": "/home/radar_har/ci4r/raw_data.zip",
+  "archive_size_bytes": 92968614387,
+  "myspecgramnew": "REIMPLEMENTED_MISSING_HELPER",
+  "native_counts": {
+    "10GHz": 327,
+    "24GHz": 327,
+    "77GHz": 327
+  },
+  "smoke_10": "PASS",
+  "smoke_24": "PASS",
+  "smoke_77": "PASS",
+  "r2d_status": "YES",
+  "r2d_shape": "1x224x224",
+  "r2d_type": "S(normalized_time, Doppler_Hz)",
+  "r2v_status": "PARTIAL",
+  "r2v_reason": "10 GHz UWB has no single fc; 24/77 can form v=c f_D/(2 fc) but common R2-V is not built",
+  "r2d_fingerprint": "0.993197",
+  "r2d_same_pair": 0.9170241129264676,
+  "r2d_diff_pair": 0.913235534965992,
+  "gate2": {
+    "A_numerical_source": true,
+    "B_physical_axes_evidence": true,
+    "C_common_grid": true,
+    "D_sanity_plots": true,
+    "enter_min_train": false,
+    "reason": "R2-D built. No encoder training in Phase 8B."
+  }
+}

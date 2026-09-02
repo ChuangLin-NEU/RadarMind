@@ -1,0 +1,7 @@
+representation,radar_id,activity_probe,note
+R2-D input 16x16,0.9931972789115646,0.8639455782312925,Phase 9 / this audit
+A0 embedding,0.9931972789115646,0.9455782312925171,Phase 9
+A1 embedding,1.0,0.9319727891156463,Phase 9
+A2 embedding,1.0,0.9251700680272109,Phase 9
+Motion Factors All,1.0,0.6870748299319728,global TRAIN z-score
+Motion Factor Stable Subset,0.9591836734693877,0.4897959183673469,sparsity;spectral_entropy;temporal_entropy;dominant_temporal_freq;autocorr_peak;doppler_std_hz;periodicity_score;time_centroid

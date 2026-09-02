@@ -1,0 +1,6 @@
+{
+  "run_id": "R1_M3_adv005",
+  "lambda_adv": 0.05,
+  "best_val_acc": 0.9523809523809523,
+  "selection": "source_val_activity"
+}

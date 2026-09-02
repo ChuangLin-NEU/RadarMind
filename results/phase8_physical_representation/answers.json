@@ -1,0 +1,43 @@
+{
+  "case": "C_resolved_on_01",
+  "R2_available": "YES",
+  "R2_type": "S(normalized_time, Doppler_Hz)",
+  "physical_representation": "R2D_BUILT",
+  "R2_V": "PARTIAL_10GHz_no_fc",
+  "myspecgramnew": "REIMPLEMENTED_MISSING_HELPER",
+  "archive": {
+    "status": "FOUND",
+    "path": "/home/radar_har/ci4r/raw_data.zip",
+    "size_bytes": 92968614387,
+    "host": "303vasp-share-01"
+  },
+  "native": {"10GHz": 327, "24GHz": 327, "77GHz": 327, "failures": 0},
+  "smoke": {"10GHz": "PASS", "24GHz": "PASS", "77GHz": "PASS"},
+  "header_24ghz": {
+    "fc_hz": 24750000000.0,
+    "tsweep_ms": 1.0,
+    "nts": 128,
+    "bw_hz": 1500000000.0,
+    "n_sweeps": 10000,
+    "ylim_5p8": "plot_only"
+  },
+  "fingerprint": {"R0": 1.0, "R1": 1.0, "R2_D": 0.993197, "R2_V": null},
+  "similarity": {
+    "R1_same": 0.77426,
+    "R1_diff": 0.73782,
+    "R2_D_same": 0.91702,
+    "R2_D_diff": 0.91324
+  },
+  "gate2": {
+    "A_numerical_source": true,
+    "B_physical_axes_evidence": true,
+    "C_common_grid": true,
+    "D_sanity_plots": true,
+    "enter_min_train": false,
+    "reason": "R2-D built. Phase 8C CE benchmark done. No new loss."
+  },
+  "phase8c_case": "D",
+  "embedding_radar_id_R2": 0.993197,
+  "activity_probe_R2": 0.945578,
+  "next": "BOTH: representation still radar-identifiable; CE encoder does not transfer. Do not replace frozen paper tables. No Phase 9."
+}

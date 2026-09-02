@@ -1,0 +1,11 @@
+item,value
+mean_abs_Delta,0.5992772986609184
+std_mean_over_pairs,2.127927517495064
+velocity_marginal_var_frac,0.6897360247432618
+temporal_marginal_var_frac,0.06566176723293064
+additive_var_frac,0.7553977919761925
+interaction_var_frac,0.24460217336968232
+n_train_pairs,229
+shape_v,224
+shape_tau,224
+representation,log(E+eps) after U1 invert; not a forward model

@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "run_id": "A2_lam0p0",
+      "lambda_pair": 0.0,
+      "best_val_acc": 0.5918367346938775,
+      "accuracy": 0.5578231292517006
+    },
+    {
+      "run_id": "A2_lam0p1",
+      "lambda_pair": 0.1,
+      "best_val_acc": 0.6938775510204082,
+      "accuracy": 0.7074829931972789
+    },
+    {
+      "run_id": "A2_lam0p5",
+      "lambda_pair": 0.5,
+      "best_val_acc": 0.8163265306122449,
+      "accuracy": 0.782312925170068
+    },
+    {
+      "run_id": "A2_lam1p0",
+      "lambda_pair": 1.0,
+      "best_val_acc": 0.6530612244897959,
+      "accuracy": 0.673469387755102
+    }
+  ],
+  "selected_run_id": "A2_lam0p5",
+  "selected_lambda": 0.5,
+  "rule": "max acquisition-split val_acc; tie \u2192 smaller lambda"
+}

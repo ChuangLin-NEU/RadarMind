@@ -1,0 +1,5 @@
+encoder,probe,accuracy,macro_f1,n,note
+within_77,activity,0.9801324503311258,0.9806581494386373,151,"fit on same split (diagnostic, not a held-out claim)"
+within_77,radar_id,1.0,1.0,151,"fit on same split (diagnostic, not a held-out claim)"
+coral_uda_77_to_10,activity,0.9801324503311258,0.9809894867037724,151,"fit on same split (diagnostic, not a held-out claim)"
+coral_uda_77_to_10,radar_id,1.0,1.0,151,"fit on same split (diagnostic, not a held-out claim)"

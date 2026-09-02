@@ -1,0 +1,12 @@
+{
+  "mri_P": 64,
+  "mri_T": 32,
+  "radhar_P": 32,
+  "radhar_T": 60,
+  "mri_window_est": 7523,
+  "radhar_window_est": 15715,
+  "mri_cache_GB": 0.28697967529296875,
+  "radhar_cache_GB": 0.5620121955871582,
+  "disk_free_GB": 3052.2729873657227,
+  "recommend": "per-window npz + packed npz. Do not dump PNG sequences."
+}

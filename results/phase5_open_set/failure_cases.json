@@ -1,0 +1,22 @@
+{
+  "held_out": "pose_4",
+  "method": "Prototype",
+  "case_A": {
+    "sample_id": "subject3_04_pose_4_w0224",
+    "gt": "pose_4",
+    "pred": "UNKNOWN",
+    "note": "true unknown correctly rejected"
+  },
+  "case_B": {
+    "sample_id": "subject10_04_pose_4_w0000",
+    "gt": "pose_4",
+    "pred": "T pose",
+    "note": "unknown absorbed as known"
+  },
+  "case_C": {
+    "sample_id": "subject10_02_pose_2_w0208",
+    "gt": "pose_2",
+    "pred": "UNKNOWN",
+    "note": "known rejected as unknown"
+  }
+}

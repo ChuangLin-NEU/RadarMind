@@ -1,0 +1,3 @@
+# Abstract (Version B)
+
+High same-sensor radar HAR accuracy does not imply cross-radar generalization. On 327 paired CI4R acquisitions, within-radar accuracy is 0.843 / 0.898 / 0.922 while 24→77 transfer falls to 0.039. Three-radar Radar-ID after numerical Doppler reconstruction is 0.993. On the 24/77 GHz pair, velocity alignment changes Radar-ID only from 1.000 to 0.939. Motion-conditioned velocity-marginal transfer reaches $R^2$ 0.744, yet the 2D TEST oracle ceiling is $R^2$ 0.418. Cross-radar failure is not removed by plotting correction, Doppler scaling, or simple calibration; the public pairs do not record the spatial and acquisition fields required to separate motion from sensor-dependent measurement effects.

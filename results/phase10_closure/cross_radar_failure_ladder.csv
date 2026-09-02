@@ -1,0 +1,11 @@
+stage,representation,radar_id,activity,cross_radar_or_pair,finding
+R0,official plotted PNG,1.000,within 0.843/0.898/0.922,24→77 0.039; 77→24 0.163,within 高，cross 塌，像素能分开雷达
+R1,cropped plotted PNG,1.000,probe 0.925; within 0.961/0.857/0.824,cross 未一起抬升,图框 confound 存在，不是主因
+R2-D,"S(τ, Doppler Hz) numerical",0.993,within 0.776/1.000/0.878; probe 0.946,LORO 仍差; pair same 0.917 vs diff 0.913,去掉绘图后身份还在
+R2-V,"24/77 S(τ, v m/s)",0.939,0.857,pair sep 0.086→0.087,载频缩放弱；测量差仍强
+U1,unified STFT R2-V,0.939,0.867,sep 0.105,统一 STFT 不降 Radar-ID
+U2,U1 + transplanted MTI,0.980,0.867,sep 0.063,统一 MTI 让身份更强
+M2,per-velocity affine calibration,0.949,0.857,vel-RID 0.929; sep 0.072,一阶 G_r(v) 校正 gate 未过
+motion factors,38 interpretable factors,1.000 (stable 0.959),0.687 (stable 0.490),paired factor distance 1.18,有动作信息，不是雷达不变
+D(v|q),motion-conditioned velocity transfer,cal 0.939→1.000,0.867→0.857,24→77 B1 R² 0.744,边际可预测，校正不消指纹
+2D low-rank,"PCA+Ridge Δ(τ,v|q)",predicted maps flip to target domain,24→77 predicted 0.735,Oracle R² 0.418; B2 0.300/0.173,二维翻译天花板低；停止经验翻译

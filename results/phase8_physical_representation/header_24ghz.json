@@ -1,0 +1,9 @@
+{
+  "fc": 24750000000.0,
+  "tsweep_ms": 1.0,
+  "tsweep_sec": 0.001,
+  "nts": 128,
+  "bw": 1500000000.0,
+  "n_sweeps": 10000,
+  "raw_duration_sec": 10.0
+}

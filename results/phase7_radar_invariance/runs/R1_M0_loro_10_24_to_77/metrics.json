@@ -1,0 +1,20 @@
+{
+  "run_id": "R1_M0_loro_10_24_to_77",
+  "model": "M0",
+  "protocol": "leave_one_radar_out",
+  "train_radars": "10GHz+24GHz",
+  "test_radar": "77GHz",
+  "lambda_contrast": 0.0,
+  "lambda_adv": 0.0,
+  "representation": "R1",
+  "seed": 42,
+  "n_train_acq": 229,
+  "n_val_acq": 49,
+  "n_test_acq": 49,
+  "n_train_views": 458,
+  "best_val_acc": 0.9387755102040817,
+  "activity_accuracy": 0.22448979591836735,
+  "macro_f1": 0.09803100125680772,
+  "status": "ok",
+  "note": "LORO R1 CE; 77GHz unused in train/val/contrastive/domain/HP"
+}

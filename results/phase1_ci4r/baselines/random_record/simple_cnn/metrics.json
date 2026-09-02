@@ -1,0 +1,78 @@
+{
+  "accuracy": 0.4742268041237113,
+  "macro_f1": 0.45833028416178156,
+  "weighted_f1": 0.456019362553268,
+  "per_class": [
+    {
+      "class": "Towards",
+      "precision": 0.5,
+      "recall": 0.3333333333333333,
+      "f1": 0.4
+    },
+    {
+      "class": "Away",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "class": "Pick",
+      "precision": 1.0,
+      "recall": 0.1111111111111111,
+      "f1": 0.2
+    },
+    {
+      "class": "Bend",
+      "precision": 0.15,
+      "recall": 0.3333333333333333,
+      "f1": 0.20689655172413793
+    },
+    {
+      "class": "Sit",
+      "precision": 0.5,
+      "recall": 0.25,
+      "f1": 0.3333333333333333
+    },
+    {
+      "class": "Kneel",
+      "precision": 0.5,
+      "recall": 0.6,
+      "f1": 0.5454545454545454
+    },
+    {
+      "class": "Crawl",
+      "precision": 0.6,
+      "recall": 0.6666666666666666,
+      "f1": 0.631578947368421
+    },
+    {
+      "class": "Toes",
+      "precision": 0.3333333333333333,
+      "recall": 0.375,
+      "f1": 0.35294117647058826
+    },
+    {
+      "class": "Limp",
+      "precision": 1.0,
+      "recall": 0.1111111111111111,
+      "f1": 0.2
+    },
+    {
+      "class": "SStep",
+      "precision": 0.42857142857142855,
+      "recall": 1.0,
+      "f1": 0.6
+    },
+    {
+      "class": "Scissor",
+      "precision": 0.8,
+      "recall": 0.4444444444444444,
+      "f1": 0.5714285714285714
+    }
+  ],
+  "n_train": 457,
+  "n_val": 98,
+  "n_test": 97,
+  "best_val_acc": 0.5510204081632653,
+  "model": "simple_cnn"
+}

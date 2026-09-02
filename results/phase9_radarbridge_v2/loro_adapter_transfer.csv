@@ -1,0 +1,10 @@
+run_id,train_radar,held_out,test_adapter,accuracy,macro_f1,n_test,lambda_pair,note
+loro_10_24_to_77,10GHz+24GHz,77GHz,identity,0.20408163265306123,0.08967032967032969,49,0.5,no target adapter; no target unlabeled fit
+loro_10_24_to_77,10GHz+24GHz,77GHz,10GHz,0.14285714285714285,0.03636363636363636,49,0.5,no target adapter; no target unlabeled fit
+loro_10_24_to_77,10GHz+24GHz,77GHz,24GHz,0.2857142857142857,0.20232708468002586,49,0.5,no target adapter; no target unlabeled fit
+loro_10_77_to_24,10GHz+77GHz,24GHz,identity,0.1836734693877551,0.10790273556231002,49,0.5,no target adapter; no target unlabeled fit
+loro_10_77_to_24,10GHz+77GHz,24GHz,10GHz,0.14285714285714285,0.08,49,0.5,no target adapter; no target unlabeled fit
+loro_10_77_to_24,10GHz+77GHz,24GHz,77GHz,0.22448979591836735,0.15293753865182438,49,0.5,no target adapter; no target unlabeled fit
+loro_24_77_to_10,24GHz+77GHz,10GHz,identity,0.16326530612244897,0.05574912891986063,49,0.5,no target adapter; no target unlabeled fit
+loro_24_77_to_10,24GHz+77GHz,10GHz,24GHz,0.22448979591836735,0.14274891774891776,49,0.5,no target adapter; no target unlabeled fit
+loro_24_77_to_10,24GHz+77GHz,10GHz,77GHz,0.12244897959183673,0.03498542274052478,49,0.5,no target adapter; no target unlabeled fit

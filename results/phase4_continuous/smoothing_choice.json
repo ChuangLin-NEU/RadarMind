@@ -1,0 +1,11 @@
+{
+  "conf_min": 0.45,
+  "val_macro_f1": 0.5711970067302924,
+  "grid": [
+    0.25,
+    0.35,
+    0.45,
+    0.55
+  ],
+  "note": "chosen on val subjects only"
+}

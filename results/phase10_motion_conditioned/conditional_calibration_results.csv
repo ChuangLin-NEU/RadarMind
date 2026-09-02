@@ -1,0 +1,7 @@
+item,before,after
+radar_id,0.9387755102040817,1.0
+vel_rid,1.0,1.0
+activity,0.8673469387755102,0.8571428571428571
+pair_sep,0.10526496628977522,0.07924203968319193
+motion_geometry_env,0.08822814682656355,0.07511507509040902
+note,paired known-radar calibration,not unseen-radar DG

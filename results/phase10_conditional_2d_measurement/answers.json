@@ -1,0 +1,113 @@
+{
+  "kind": "motion-conditioned 2D measurement model; not geometry-aware; not unseen-radar DG",
+  "selected_k": {
+    "24to77": 20,
+    "77to24": 20
+  },
+  "train_explained_var": {
+    "24to77": 0.48969790078241354,
+    "77to24": 0.48969790078241354
+  },
+  "oracle": {
+    "24to77": {
+      "r2": 0.4183071653104371,
+      "mae": 1.31831337316893,
+      "rmse": 1.687760458602879,
+      "corr": 0.6467824629368882
+    },
+    "77to24": {
+      "r2": 0.4183071653104371,
+      "mae": 1.31831337316893,
+      "rmse": 1.687760458602879,
+      "corr": 0.6467824629368882
+    }
+  },
+  "transfer": {
+    "24to77": {
+      "B0": {
+        "r2": 0.048744030095563384,
+        "mae": 1.6825525150014715,
+        "rmse": 2.1583041632220388,
+        "corr": 0.22658184812527657
+      },
+      "B1": {
+        "r2": -0.027292490217927234,
+        "mae": 1.7524209565650124,
+        "rmse": 2.2429056628966446,
+        "corr": 0.2312275873117888
+      },
+      "B2": {
+        "r2": 0.3001518964294174,
+        "mae": 1.4283996234119203,
+        "rmse": 1.8512533006175071,
+        "corr": 0.5550401744727971
+      }
+    },
+    "77to24": {
+      "B0": {
+        "r2": 0.048744030095563384,
+        "mae": 1.6825525150014715,
+        "rmse": 2.1583041632220388,
+        "corr": 0.22658184812527657
+      },
+      "B1": {
+        "r2": -0.054981716676380854,
+        "mae": 1.7791705173296952,
+        "rmse": 2.272931865890898,
+        "corr": 0.16577299077715843
+      },
+      "B2": {
+        "r2": 0.17293156896461226,
+        "mae": 1.5709692401955864,
+        "rmse": 2.0124943645219813,
+        "corr": 0.41793130552318225
+      }
+    }
+  },
+  "gate": "FAIL",
+  "gate_detail": {
+    "24to77": {
+      "mae": true,
+      "sim": false,
+      "act": false
+    },
+    "77to24": {
+      "mae": true,
+      "sim": false,
+      "act": true
+    }
+  },
+  "interpretation": "BOTH",
+  "case": "C2D-C",
+  "next_step": "STOP EMPIRICAL SENSOR TRANSLATION",
+  "best_action": "Bend",
+  "worst_action": "Towards",
+  "pc_notes": {
+    "24to77": [
+      "spectral widening / rough velocity envelope",
+      "near-zero velocity energy; spectral widening / rough velocity envelope; late-time; mid-time",
+      "near-zero velocity energy; stronger on -v; spectral widening / rough velocity envelope; late-time; mid-time"
+    ],
+    "77to24": [
+      "spectral widening / rough velocity envelope",
+      "near-zero velocity energy; spectral widening / rough velocity envelope; late-time; mid-time",
+      "near-zero velocity energy; stronger on -v; spectral widening / rough velocity envelope; late-time; mid-time"
+    ]
+  },
+  "residual_q": {
+    "24to77": {
+      "r2": -0.0192090828755187,
+      "mae": 0.3984287225286073,
+      "rmse": 0.5183773923152042,
+      "corr": 0.0409906087667427
+    },
+    "77to24": {
+      "r2": -0.0640527389730483,
+      "mae": 0.7454403945253592,
+      "rmse": 0.9554469304283569,
+      "corr": -0.15490862286141235
+    }
+  },
+  "har_trained": false,
+  "geometry_aware": "BLOCKED"
+}

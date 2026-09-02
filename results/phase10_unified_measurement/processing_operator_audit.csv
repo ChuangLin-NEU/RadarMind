@@ -1,0 +1,23 @@
+property,24GHz,77GHz,same_or_different,physical_relevance,can_unify,evidence
+carrier_frequency,24.75e9 Hz (raw header),77563650000 Hz = (77.1799e9+77.9474e9)/2,different,yes_velocity_scale,no,header; datToImage_77.m:8-10
+bandwidth,1.5e9 Hz (header),"0.7675e9 Hz (fstop-fstart). README 4e9 is chip, not this chirp",different,range_resolution,no,"header_24ghz.json; datToImage_77.m:8-9,17"
+PRF_sweep_rate,1000 Hz = 1/Tsweep,3200 Hz = 1/(40e-3/128),different,nyquist_and_stft_hop,no,header; datToImage_77.m:13-20
+range_FFT,"fftshift(fft) along NTS, keep nts/2 positive incl. DC","same pattern, NTS=256, keep 128",same_formula,range_profile,already_same,Anchortech.m:24-25; AIRHAR RGB_mD
+range_resolution,c/(2*1.5e9) ≈ 0.0999 m,c/(2*0.7675e9) ≈ 0.1954 m,different,spatial_cell,no,FMCW formula + Bw
+range_axis,script has no rng_axis,datToImage_77.m:72 rng_axis=([1:NTS]-1)*c/2/Bw on full 256; AIRHAR does not use it,not_both_script_mapped,gate_meters,no,24: no axis; 77 axis not applied to AIRHAR rp rows
+range_selection,single MATLAB bin 19,"AIRHAR sum bins 23:31 (0-based, half profile); official MATLAB uses bin 8",different,which_range_cells,only_if_physical_axis,Anchortech.m:52; AIRHAR RGB_mD; datToImage_77.m:75
+clutter_removal,Butterworth highpass after range FFT,Phase 8B / AIRHAR: none. Official MATLAB conv [1 -2 3 -2 1],different,stationary_reject,yes_if_same_filter,Anchortech.m:27-33; AIRHAR MTI commented
+MTI,"butter(4, Wn=0.01, high), causal filter(), per range bin",Phase 8B: none,different,slow_time_highpass,yes_physical_cutoff,Anchortech.m:27-33
+slow_time_signal,complex range-bin 19 after MTI,"complex coherent sum of bins 23:31, no MTI",different,STFT_input,partial,reconstruct.py
+STFT_window_type,Hamming (myspecgramnew reimplementation),Hann (AIRHAR); official MATLAB myspecgramnew,different,spectral_leakage,yes,stft_helpers.py; AIRHAR RGB_mD
+STFT_window_samples,128,256,different,time_smear_samples,unify_via_seconds,Anchortech.m:51; AIRHAR
+STFT_window_duration_s,0.128,0.080,different,time_smear_seconds,yes,window/PRF
+overlap_samples,100,200 (AIRHAR); 197 (MATLAB 77),different,column_rate,unify_via_fraction,scripts
+overlap_fraction,100/128 = 0.781,200/256 = 0.781 (AIRHAR),same_fraction_native,hop_policy,yes,computed
+hop_duration_s,0.028,0.0175,different,temporal_sampling,yes_via_fraction,hop/PRF
+nfft,4096,4096,same,zero_pad,yes,both chains
+Doppler_resolution_hz,1000/4096 ≈ 0.244 Hz,3200/4096 ≈ 0.781 Hz,different,fd_bin,compare_on_velocity,PRF/nfft
+velocity_resolution_mps,0.001479,0.001510,close,v_bin,already_close,v=c*(PRF/nfft)/(2 fc)
+dynamic_range,20 log10(|s|/max) per recording,same in Phase 8B reconstruct,same_formula,display_gain,already_same,mag_db
+log_conversion,20 log10,20 log10,same,dB,already_same,mag_db
+normalization,Phase 10C: TRAIN clip 1–99 + global z-score,same procedure in 10C,same_procedure,amplitude,keep_global_TRAIN,r2v_normalization.json

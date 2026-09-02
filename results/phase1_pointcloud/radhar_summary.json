@@ -1,0 +1,10 @@
+{
+  "n_recordings": 200,
+  "n_train_txt": 142,
+  "n_test_txt": 58,
+  "subject_metadata": false,
+  "median_pts_frame": 21.0,
+  "selected_P": 32,
+  "selected_T": 60,
+  "approx_windows_official": 15715
+}

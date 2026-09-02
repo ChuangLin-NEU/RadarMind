@@ -1,0 +1,47 @@
+{
+  "protocol": "leave_one_action_out + subject_independent",
+  "source_metrics": "results\\phase1_pointcloud\\baselines\\mri_si_gru_xyz\\metrics.json",
+  "selected": [
+    {
+      "action": "pose_1",
+      "role": "A_easy",
+      "reason": "SI PointNet-GRU XYZ closed-set F1=0.800, highest among pose_*",
+      "closed_set_f1": 0.8,
+      "n_segments": 20,
+      "n_test_segments": 3
+    },
+    {
+      "action": "pose_4",
+      "role": "B_confused_pose",
+      "reason": "largest fraction of errors going to other pose_* (0.687); closed-set F1=0.020",
+      "closed_set_f1": 0.0196078431372549,
+      "pose_to_pose_error_frac": 0.6868686868686869,
+      "n_segments": 20,
+      "n_test_segments": 3
+    },
+    {
+      "action": "walk",
+      "role": "C_semantic",
+      "reason": "walk is not a numbered pose; SI F1=0.452; kept as semantic held-out",
+      "closed_set_f1": 0.45161290322580644,
+      "n_segments": 20,
+      "n_test_segments": 3
+    }
+  ],
+  "per_class_f1": {
+    "T pose": 0.0,
+    "pose_1": 0.8,
+    "pose_2": 0.6350710900473934,
+    "pose_3": 0.4745762711864407,
+    "pose_4": 0.0196078431372549,
+    "pose_5": 0.25,
+    "pose_6": 0.5064935064935064,
+    "pose_7": 0.507177033492823,
+    "pose_8": 0.504,
+    "pose_9": 0.5319148936170213,
+    "pose_10": 0.4769874476987448,
+    "free_form": 0.3076923076923077,
+    "walk": 0.45161290322580644
+  },
+  "note": "First three folds. Full 13-fold runs if these finish quickly."
+}

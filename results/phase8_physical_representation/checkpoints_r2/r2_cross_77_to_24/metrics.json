@@ -1,0 +1,17 @@
+{
+  "run_id": "r2_cross_77_to_24",
+  "protocol": "single_source_cross_radar",
+  "train_radar": "77GHz",
+  "test_radar": "24GHz",
+  "method": "source_only_ce",
+  "representation": "R2-D",
+  "n_classes": 7,
+  "seed": 42,
+  "accuracy": 0.1836734693877551,
+  "macro_f1": 0.1285714285714286,
+  "n_train": 229,
+  "n_val": 49,
+  "n_test": 49,
+  "best_val_acc": 0.9183673469387755,
+  "note": "R2-D CE; target unused in train/val"
+}

@@ -1,0 +1,16 @@
+{
+  "run_id": "cross_10_to_77",
+  "protocol": "acquisition_timestamp_disjoint",
+  "train_radar": "10GHz",
+  "test_radar": "77GHz",
+  "method": "source_only",
+  "n_classes": 7,
+  "seed": 42,
+  "accuracy": 0.37254901960784315,
+  "macro_f1": 0.287569573283859,
+  "n_train": 243,
+  "n_val": 52,
+  "n_test": 51,
+  "best_val_acc": 0.9230769230769231,
+  "note": "source-only; test radar unseen in training"
+}

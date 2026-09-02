@@ -1,0 +1,31 @@
+{
+  "n": 3,
+  "demos": [
+    {
+      "demo_id": "demo_A",
+      "title": "三频 within 都对",
+      "timestamp": "1573837254",
+      "action": "Away",
+      "split": "test"
+    },
+    {
+      "demo_id": "demo_B",
+      "title": "77 within 对，77→10 source-only 错",
+      "timestamp": "1573837254",
+      "action": "Away",
+      "pred_77": "Away",
+      "pred_77_to_10": "Sit",
+      "split": "test"
+    },
+    {
+      "demo_id": "demo_C",
+      "title": "source-only 错，CORAL UDA 对",
+      "timestamp": "1574194391",
+      "action": "Away",
+      "pred_source_only": "Sit",
+      "pred_coral": "Away",
+      "split": "test",
+      "note": "unsupervised domain adaptation, not domain generalization"
+    }
+  ]
+}

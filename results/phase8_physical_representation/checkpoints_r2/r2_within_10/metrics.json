@@ -1,0 +1,17 @@
+{
+  "run_id": "r2_within_10",
+  "protocol": "within_radar",
+  "train_radar": "10GHz",
+  "test_radar": "10GHz",
+  "method": "source_only_ce",
+  "representation": "R2-D",
+  "n_classes": 7,
+  "seed": 42,
+  "accuracy": 0.7755102040816326,
+  "macro_f1": 0.7465001665001666,
+  "n_train": 229,
+  "n_val": 49,
+  "n_test": 49,
+  "best_val_acc": 0.7755102040816326,
+  "note": "R2-D CE within; same HP as Phase 7 source-only"
+}

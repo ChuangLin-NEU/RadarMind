@@ -1,0 +1,9 @@
+table,csv_n,md_n,tex_n,consistent,only_csv,only_md,only_tex
+cross_radar_failure_ladder,27,27,27,PASS,,,
+table1_dataset,0,0,0,PASS,,,
+table2_within_cross,18,18,18,PASS,,,
+table3_representation_evolution,6,6,6,PASS,,,
+table4_velocity_processing,9,9,9,PASS,,,
+table5_alignment_negative,9,9,9,PASS,,,
+table6_motion_conditioned,7,7,7,PASS,,,
+table7_lowrank_2d,4,4,4,PASS,,,

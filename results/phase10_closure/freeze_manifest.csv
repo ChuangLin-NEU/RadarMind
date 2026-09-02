@@ -1,0 +1,8 @@
+directory,exists,status
+results/phase10_motion_factors,True,READ_ONLY
+results/phase10_sensor_calibration,True,READ_ONLY
+results/phase10_velocity_calibration,True,READ_ONLY
+results/phase10_unified_measurement,True,READ_ONLY
+results/phase10_hardware_measurement,True,READ_ONLY
+results/phase10_motion_conditioned,True,READ_ONLY
+results/phase10_conditional_2d_measurement,True,READ_ONLY

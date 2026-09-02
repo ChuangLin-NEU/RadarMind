@@ -1,0 +1,24 @@
+{
+  "gate": "FAIL",
+  "c_best": "C3",
+  "passed": [],
+  "har_trained": false,
+  "case": "CAL-C",
+  "next_step": "MEASUREMENT-MODEL CALIBRATION",
+  "c0_radar": 0.9931972789115646,
+  "c0_activity": 0.8639455782312925,
+  "best_radar": 0.9795918367346939,
+  "best_activity": 0.8639455782312925,
+  "best_same_sim": 0.04256875827579069,
+  "c0_same_sim": 0.3547019870558969,
+  "factor_activity": 0.8027210884353742,
+  "factor_radar": 0.9931972789115646,
+  "ablation": {
+    "global_stats": 0.9591836734693877,
+    "doppler_marginal": 1.0,
+    "temporal_marginal": 0.8707482993197279,
+    "motion_factors": 1.0,
+    "r2_16x16": 0.9931972789115646
+  },
+  "kind": "KNOWN-RADAR CALIBRATION"
+}

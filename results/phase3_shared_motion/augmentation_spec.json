@@ -1,0 +1,34 @@
+{
+  "name": "physics_aware_sensor_randomization_v01",
+  "A_amplitude": {
+    "gain_min": 0.65,
+    "gain_max": 1.4,
+    "note": "radar gain / response"
+  },
+  "B_doppler_axis_scale": {
+    "p": 0.6,
+    "scale_min": 0.88,
+    "scale_max": 1.12,
+    "axis": 0
+  },
+  "C_temporal_resample": {
+    "p": 0.6,
+    "scale_min": 0.88,
+    "scale_max": 1.12,
+    "axis": 1
+  },
+  "D_resolution_blur": {
+    "p": 0.5,
+    "sigma_min": 0.4,
+    "sigma_max": 1.1
+  },
+  "E_radar_like_noise": {
+    "std_min": 0.03,
+    "std_max": 0.1
+  },
+  "forbidden": [
+    "large_rotation",
+    "color_jitter",
+    "imagenet_flip"
+  ]
+}

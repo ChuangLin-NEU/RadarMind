@@ -1,0 +1,21 @@
+{
+  "run_id": "loro_24_77_to_10",
+  "model": "A2_LORO",
+  "protocol": "leave_one_radar_out",
+  "lambda_pair": 0.5,
+  "train_radar": "24GHz+77GHz",
+  "test_radar": "24GHz+77GHz",
+  "accuracy": 0.6632653061224489,
+  "macro_f1": 0.6561454628449702,
+  "acc_10": "",
+  "acc_24": 0.7755102040816326,
+  "acc_77": 0.5510204081632653,
+  "n_train": 458,
+  "n_val": 98,
+  "n_test": 98,
+  "best_val_acc": 0.673469387755102,
+  "adapter_params": 19074,
+  "encoder_params": 11173831,
+  "seed": 42,
+  "note": "LORO adapters ['24GHz', '77GHz']; held-out 10GHz never trained; lambda=0.5"
+}

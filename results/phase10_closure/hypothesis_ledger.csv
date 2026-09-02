@@ -1,0 +1,12 @@
+hypothesis,experiment,supported,partially_supported,rejected,key_metric,interpretation,next_implication
+H1 cross-radar failure mainly caused by plotted PNG differences,Phase 7 R0 vs R1; Phase 8B R2-D,no,yes,no,Radar-ID R0=1.000 R1=1.000 R2-D=0.993,图框有 confound，去掉后身份几乎不动,不要把论文失败归因成 PNG
+H2 Doppler-frequency normalization solves most domain shift,Phase 8C R2-D CE / LORO,no,no,yes,R2-D Radar-ID 0.993; LORO near chance on some held-out radars,公共 Doppler 栅格不够,Hz 对齐不是解
+H3 velocity alignment solves 24/77 shift,Phase 10C R2-V,no,yes,no,Radar-ID 1.000→0.939; pair sep 0.086→0.087,载频缩放是弱项,不要再调 common velocity 边界
+H4 STFT mismatch is dominant,Phase 10D U1,no,no,yes,U1 ΔRadar-ID = 0 vs U0,统一窗长/hop 不消指纹,不要再改 STFT 当主杠杆
+H5 MTI mismatch is dominant,Phase 10D U2,no,no,yes,U2 Radar-ID 0.980 > U1 0.939,移植 Butterworth 让身份更清楚,U2 不作正式表示
+H6 simple radar-wise calibration removes fingerprint,Phase 10B C0–C4; Phase 10E M1–M3,no,no,yes,10B gate FAIL; M2 Radar-ID 0.949 vel-RID 0.929,已知雷达一阶校正不够,停止简单 canonicalization
+H7 motion factors are radar-invariant,Phase 10A,no,yes,no,activity 0.687; Radar-ID 1.000 / stable 0.959,有动作信息，不是不变表示,因子可作 q，不能当 invariant encoder
+H8 radar-specific adapters learn shared motion,Phase 9 A0–A2 / LORO,no,no,yes,embedding Radar-ID 1.000; A0>A1>A2; LORO not improved,Adapter 没做成共享运动,当前数据上不要再堆 Adapter
+H9 fixed G_r(v) transfer exists,Phase 10E,no,no,yes,stability 0.395; action η² 0.558,跨动作不稳,禁止写固定硬件传递函数
+H10 motion-conditioned D(v|q) is predictable,Phase 10F,yes,no,no,24→77 B1 R² 0.744; 77→24 R² 0.575,速度边际可预测；校正不消 Radar-ID,可写 motion-dependent response，不能写已校准
+H11 full 2D transformation is low-rank and source-predictable,Phase 10G,no,yes,no,Oracle R² 0.418; B2 0.300/0.173; TRAIN var 0.490 at K=20,有结构，不够低秩也不够可预测,STOP EMPIRICAL SENSOR TRANSLATION

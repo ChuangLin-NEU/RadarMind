@@ -1,0 +1,5 @@
+representation,classifier,n_train,n_test,accuracy,macro_f1,note
+R0,logreg_16x16_pixels,,,1.000,,Phase 7 frozen
+R1,logreg_16x16_pixels,,,1.000,,Phase 7 frozen
+R2-D,logreg_16x16_pixels,687,147,0.993197,0.993197,same probe as Phase 7; not a ResNet
+R2-V,,,,,,not built (10 GHz no fc)

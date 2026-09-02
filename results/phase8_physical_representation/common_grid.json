@@ -1,0 +1,35 @@
+{
+  "status": "BUILT_R2D",
+  "type": "S(normalized_time, Doppler_Hz)",
+  "Nt": 224,
+  "Nf": 224,
+  "tau_min": 0.0,
+  "tau_max": 1.0,
+  "common_fd_min": -256.0,
+  "common_fd_max": 255.875,
+  "train_stats": {
+    "10GHz": {
+      "n_train": 229,
+      "t_min": 10.2421875,
+      "t_max": 10.25390625,
+      "fd_min": -256.0,
+      "fd_max": 255.875
+    },
+    "24GHz": {
+      "n_train": 229,
+      "t_min": 10.0,
+      "t_max": 10.0,
+      "fd_min": -500.0,
+      "fd_max": 499.755859375
+    },
+    "77GHz": {
+      "n_train": 229,
+      "t_min": 10.0,
+      "t_max": 10.0,
+      "fd_min": -1600.0,
+      "fd_max": 1599.21875
+    }
+  },
+  "note": "intersection of TRAIN Doppler support; tau resamples native duration. Not velocity.",
+  "R2_V": "PARTIAL_or_unavailable_10GHz_no_fc"
+}

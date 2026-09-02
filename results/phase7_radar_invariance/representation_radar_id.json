@@ -1,0 +1,20 @@
+[
+  {
+    "representation": "R0",
+    "classifier": "logreg_16x16_pixels",
+    "n_train": 705,
+    "n_test": 151,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "note": "fit train pixels, eval test; not a motion-encoder probe"
+  },
+  {
+    "representation": "R1",
+    "classifier": "logreg_16x16_pixels",
+    "n_train": 705,
+    "n_test": 151,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "note": "fit train pixels, eval test; not a motion-encoder probe"
+  }
+]

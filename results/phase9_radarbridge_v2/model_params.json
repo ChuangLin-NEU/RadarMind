@@ -1,0 +1,8 @@
+{
+  "adapter_each": 9537,
+  "adapter_all_three": 28611,
+  "shared_encoder": 11173831,
+  "representation": "R2-D",
+  "r2v": "NO",
+  "physics_gate": "EFFECTIVE_FC_UNRESOLVED"
+}

@@ -1,0 +1,16 @@
+property,24GHz,77GHz,comparable,class,evidence,likely_effect
+carrier_frequency_hz,24750000000,77563650000,YES_AFTER_VELOCITY,A_coordinate_scaling,24: raw header / Anchortech.m:8; 77: datToImage_77.m:8-10,same radial v maps to different f_D; this is the H1 test
+bandwidth_hz,1.5e9 (header Bw),"0.7675e9 (fstop-fstart); README says 4e9 (chip, not this chirp)",NO,C_spatial_measurement,"header_24ghz.json; datToImage_77.m:8-9,17; README.md:9",different range resolution and range-bin mixing
+PRF_or_sweep_rate_hz,"1000 (1/Tsweep, Tsweep=1.0 ms)",3200 (1/(40e-3/128)),NO,B_sampling_resolution,header_24ghz.json; datToImage_77.m:13-20,different Nyquist and STFT hop in seconds
+native_Doppler_support_hz,"[-500, +499.756]","[-1600, +1599.219]",NO_IN_HZ_YES_IN_VELOCITY_INTERSECT,A_coordinate_scaling,Phase 8B native_representation_manifest / common_grid.json,Hz crop ±256 discards 77 GHz high-f_D that maps into 24 GHz v support
+range_preprocessing,"range FFT, keep positive half, single bin 19","MATLAB: range FFT per RX, MTI conv, bin 8; Phase8B AIRHAR: sum bins 23:31",NO,C_spatial_measurement,"Anchortech.m:21-32,52; datToImage_77.m:44-75",different range gate / multipath mix
+RX_channel_strategy,single Ancortek channel in .dat,MATLAB: 4 RX then RX1 for MTI; AIRHAR/Phase8B: I=3 Q=7 only,NO,C_spatial_measurement,"Anchortech.m; datToImage_77.m:7,44-57; AIRHAR bin2np",beam / SNR / clutter difference
+MTI_clutter,Butterworth highpass order4 Wn=0.01,MATLAB conv [1 -2 3 -2 1]; AIRHAR MTI commented out (Phase 8B uses AIRHAR: none),NO,D_signal_conditioning,Anchortech.m:27-33; datToImage_77.m:50-57; AIRHAR RGB_mD MTI commented,stationary / slow-motion residual differs; Phase 8B 77 has no MTI
+STFT_window_samples,128 Hamming (myspecgramnew reimplementation),256 Hann (AIRHAR); MATLAB official 256 Hamming-like,NO,B_sampling_resolution,Anchortech.m:51; AIRHAR RGB_mD; datToImage_77.m:73,different temporal smearing
+STFT_window_seconds,128/1000 = 0.128 s,256/3200 = 0.080 s,NO,B_sampling_resolution,window/PRF,24 GHz integrates longer motion; not removed by v-axis remap
+STFT_overlap_and_hop,"noverlap=100, hop=28 samples = 0.028 s","AIRHAR overlap=200, hop=56 samples = 0.0175 s; MATLAB noverlap=197 hop=59",NO,B_sampling_resolution,Anchortech.m:51; AIRHAR RGB_mD; datToImage_77.m:73,different frame rate of spectrogram columns
+STFT_nfft,4096,4096,YES_COUNT_NO_HZ,B_sampling_resolution,both scripts,bin width 0.244 Hz vs 0.781 Hz
+native_duration_sec,10.0,"10.0 (32000 chirps; MATLAB NoF=500 would be 20 s, file is 10 s)",YES,B_sampling_resolution,header_24ghz.json; Phase 1 bin length,tau normalization is valid
+native_range_resolution_m,c/(2*1.5e9) ≈ 0.100 m,c/(2*0.7675e9) ≈ 0.195 m,NO,C_spatial_measurement,Bw values above,range-bin 19 vs summed 23:31 cover different physical depth
+native_velocity_resolution_mps,0.001479,0.001510,CLOSE,B_sampling_resolution,v=c*(PRF/nfft)/(2 fc),bin width similar in m/s; not the main residual
+dB_peak_normalization,20 log10(|s|/max) per recording (Phase 8B mag_db),same in Phase 8B reconstruct,YES_FORMULA,D_signal_conditioning,scripts/phase8/stft_helpers.py mag_db,per-file gain removed; clutter floor still radar-specific

@@ -1,0 +1,7 @@
+level,representation,activity_probe,radar_id_probe,note
+representation_16x16,R0,,1.000,Phase 7 pixel logreg
+representation_16x16,R1,,1.000,Phase 7 pixel logreg
+representation_16x16,R2-D,,0.993197,Phase 8B pixel logreg; not encoder
+encoder_embedding,R0,0.9183673469387755,1.0,Phase 3 M0 shared CE
+encoder_embedding,R1,0.9251700680272109,1.0,Phase 7 M0 shared CE
+encoder_embedding,R2-D,0.9455782312925171,0.9931972789115646,Phase 8C shared CE; linear probe fit train eval test

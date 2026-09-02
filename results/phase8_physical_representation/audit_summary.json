@@ -1,0 +1,43 @@
+{
+  "n_paired_acquisitions": 327,
+  "n_inventory_rows": 981,
+  "local_raw_data_zip": false,
+  "linux_01_zip": "/home/radar_har/ci4r/raw_data.zip",
+  "gcs": {
+    "url": "https://storage.googleapis.com/cross-frequency_dataset/Raw%20Data/raw_data.zip",
+    "reachable": true,
+    "content_length": "92968614387",
+    "error": "",
+    "status": 200
+  },
+  "per_radar": {
+    "10GHz": {
+      "archive_raw": 327,
+      "archive_num": 0,
+      "local_png": 327,
+      "p1_manifest": 0,
+      "p1_cache": 0
+    },
+    "24GHz": {
+      "archive_raw": 327,
+      "archive_num": 0,
+      "local_png": 327,
+      "p1_manifest": 0,
+      "p1_cache": 0
+    },
+    "77GHz": {
+      "archive_raw": 327,
+      "archive_num": 327,
+      "local_png": 327,
+      "p1_manifest": 327,
+      "p1_cache": 327
+    }
+  },
+  "status_counts": {
+    "UNRESOLVED": 981
+  },
+  "case": "C",
+  "r2": "NO",
+  "reason": "Archive members exist for 10/24 .dat and 77 Raw_0.bin (01 Linux zip inventory), but this host has no raw_data.zip. Mapping is established. R2 not built. Do not invert PNG.",
+  "case_note": "Files exist in archive; blocked by local extraction, not by missing mapping."
+}

@@ -1,0 +1,10 @@
+protocol,R0_accuracy,R1_accuracy,R2_accuracy,R0_radar_id,R1_radar_id,R2_radar_id,note
+10→10,0.843,0.9607843137254902,,1.0,1.0,,R2 empty: no physical cache
+24→24,0.898,0.8571428571428571,,1.0,1.0,,R2 empty: no physical cache
+77→77,0.922,0.8235294117647058,,1.0,1.0,,R2 empty: no physical cache
+77→10,0.275,0.17647058823529413,,1.0,1.0,,R2 empty: no physical cache
+10→77,0.373,0.29411764705882354,,1.0,1.0,,R2 empty: no physical cache
+77→24,0.163,0.02040816326530612,,1.0,1.0,,R2 empty: no physical cache
+24→77,0.039,0.13725490196078433,,1.0,1.0,,R2 empty: no physical cache
+10→24,0.143,0.5102040816326531,,1.0,1.0,,R2 empty: no physical cache
+24→10,0.353,0.3333333333333333,,1.0,1.0,,R2 empty: no physical cache

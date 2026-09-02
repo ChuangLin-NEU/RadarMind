@@ -1,0 +1,274 @@
+action_segment_id,subject,action,source_file,segment_start,segment_end,split,protocol,seed
+subject1_00_T_pose,subject1,T pose,subject1_0427.csv,98,139,train,loso_subject18,0
+subject1_01_pose_1,subject1,pose_1,subject1_0427.csv,169,640,train,loso_subject18,0
+subject1_02_pose_2,subject1,pose_2,subject1_0427.csv,640,1122,train,loso_subject18,0
+subject1_03_pose_3,subject1,pose_3,subject1_0427.csv,1122,1661,train,loso_subject18,0
+subject1_04_pose_4,subject1,pose_4,subject1_0427.csv,1661,2173,train,loso_subject18,0
+subject1_05_pose_5,subject1,pose_5,subject1_0427.csv,2173,2692,train,loso_subject18,0
+subject1_06_pose_6,subject1,pose_6,subject1_0427.csv,2692,3206,train,loso_subject18,0
+subject1_07_pose_7,subject1,pose_7,subject1_0427.csv,3206,3723,train,loso_subject18,0
+subject1_08_pose_8,subject1,pose_8,subject1_0427.csv,3723,4253,train,loso_subject18,0
+subject1_09_pose_9,subject1,pose_9,subject1_0427.csv,4253,4744,train,loso_subject18,0
+subject1_10_pose_10,subject1,pose_10,subject1_0427.csv,4744,5302,train,loso_subject18,0
+subject1_11_free_form,subject1,free_form,subject1_0427.csv,5302,6023,train,loso_subject18,0
+subject1_12_walk,subject1,walk,subject1_0427.csv,6023,6481,train,loso_subject18,0
+subject10_00_T_pose,subject10,T pose,subject10_0504.csv,7,53,train,loso_subject18,0
+subject10_01_pose_1,subject10,pose_1,subject10_0504.csv,71,591,train,loso_subject18,0
+subject10_02_pose_2,subject10,pose_2,subject10_0504.csv,592,1135,train,loso_subject18,0
+subject10_03_pose_3,subject10,pose_3,subject10_0504.csv,1140,1676,train,loso_subject18,0
+subject10_04_pose_4,subject10,pose_4,subject10_0504.csv,1708,2255,train,loso_subject18,0
+subject10_05_pose_5,subject10,pose_5,subject10_0504.csv,2263,2806,train,loso_subject18,0
+subject10_06_pose_6,subject10,pose_6,subject10_0504.csv,2808,3368,train,loso_subject18,0
+subject10_07_pose_7,subject10,pose_7,subject10_0504.csv,3382,3974,train,loso_subject18,0
+subject10_08_pose_8,subject10,pose_8,subject10_0504.csv,3978,4512,train,loso_subject18,0
+subject10_09_pose_9,subject10,pose_9,subject10_0504.csv,4519,5056,train,loso_subject18,0
+subject10_10_pose_10,subject10,pose_10,subject10_0504.csv,5059,5643,train,loso_subject18,0
+subject10_11_free_form,subject10,free_form,subject10_0504.csv,5644,6229,train,loso_subject18,0
+subject10_12_walk,subject10,walk,subject10_0504.csv,6232,6917,train,loso_subject18,0
+subject10_13_T_pose_2,subject10,T pose,subject10_0504.csv,6938,6946,train,loso_subject18,0
+subject11_00_T_pose,subject11,T pose,subject11_0505.csv,182,223,train,loso_subject18,0
+subject11_01_pose_1,subject11,pose_1,subject11_0505.csv,247,765,train,loso_subject18,0
+subject11_02_pose_2,subject11,pose_2,subject11_0505.csv,767,1295,train,loso_subject18,0
+subject11_03_pose_3,subject11,pose_3,subject11_0505.csv,1389,1833,train,loso_subject18,0
+subject11_04_pose_4,subject11,pose_4,subject11_0505.csv,1853,2374,train,loso_subject18,0
+subject11_05_pose_5,subject11,pose_5,subject11_0505.csv,2391,2926,train,loso_subject18,0
+subject11_06_pose_6,subject11,pose_6,subject11_0505.csv,2934,3440,train,loso_subject18,0
+subject11_07_pose_7,subject11,pose_7,subject11_0505.csv,4085,4611,train,loso_subject18,0
+subject11_08_pose_8,subject11,pose_8,subject11_0505.csv,4616,5135,train,loso_subject18,0
+subject11_09_pose_9,subject11,pose_9,subject11_0505.csv,5141,5680,train,loso_subject18,0
+subject11_10_pose_10,subject11,pose_10,subject11_0505.csv,5687,6210,train,loso_subject18,0
+subject11_11_free_form,subject11,free_form,subject11_0505.csv,6221,6768,train,loso_subject18,0
+subject11_12_walk,subject11,walk,subject11_0505.csv,6779,7282,train,loso_subject18,0
+subject11_13_T_pose_2,subject11,T pose,subject11_0505.csv,7300,7326,train,loso_subject18,0
+subject12_00_T_pose,subject12,T pose,subject12_0505.csv,195,231,train,loso_subject18,0
+subject12_01_pose_1,subject12,pose_1,subject12_0505.csv,251,781,train,loso_subject18,0
+subject12_02_pose_2,subject12,pose_2,subject12_0505.csv,783,1332,train,loso_subject18,0
+subject12_03_pose_3,subject12,pose_3,subject12_0505.csv,1334,1877,train,loso_subject18,0
+subject12_04_pose_4,subject12,pose_4,subject12_0505.csv,1880,2420,train,loso_subject18,0
+subject12_05_pose_5,subject12,pose_5,subject12_0505.csv,2426,2966,train,loso_subject18,0
+subject12_06_pose_6,subject12,pose_6,subject12_0505.csv,2969,3503,train,loso_subject18,0
+subject12_07_pose_7,subject12,pose_7,subject12_0505.csv,3506,4046,train,loso_subject18,0
+subject12_08_pose_8,subject12,pose_8,subject12_0505.csv,4053,4580,train,loso_subject18,0
+subject12_09_pose_9,subject12,pose_9,subject12_0505.csv,4583,5130,train,loso_subject18,0
+subject12_10_pose_10,subject12,pose_10,subject12_0505.csv,5132,5664,train,loso_subject18,0
+subject12_11_free_form,subject12,free_form,subject12_0505.csv,5670,6200,train,loso_subject18,0
+subject12_12_walk,subject12,walk,subject12_0505.csv,6202,6720,train,loso_subject18,0
+subject12_13_T_pose_2,subject12,T pose,subject12_0505.csv,6740,6753,train,loso_subject18,0
+subject13_00_T_pose,subject13,T pose,subject13_0505.csv,127,160,train,loso_subject18,0
+subject13_01_pose_1,subject13,pose_1,subject13_0505.csv,186,703,train,loso_subject18,0
+subject13_02_pose_2,subject13,pose_2,subject13_0505.csv,704,1246,train,loso_subject18,0
+subject13_03_pose_3,subject13,pose_3,subject13_0505.csv,1249,1798,train,loso_subject18,0
+subject13_04_pose_4,subject13,pose_4,subject13_0505.csv,1814,2366,train,loso_subject18,0
+subject13_05_pose_5,subject13,pose_5,subject13_0505.csv,2369,2916,train,loso_subject18,0
+subject13_06_pose_6,subject13,pose_6,subject13_0505.csv,2918,3491,train,loso_subject18,0
+subject13_07_pose_7,subject13,pose_7,subject13_0505.csv,3495,4084,train,loso_subject18,0
+subject13_08_pose_8,subject13,pose_8,subject13_0505.csv,4085,4611,train,loso_subject18,0
+subject13_09_pose_9,subject13,pose_9,subject13_0505.csv,4614,5256,train,loso_subject18,0
+subject13_10_pose_10,subject13,pose_10,subject13_0505.csv,5258,5779,train,loso_subject18,0
+subject13_11_free_form,subject13,free_form,subject13_0505.csv,5784,6473,train,loso_subject18,0
+subject13_12_walk,subject13,walk,subject13_0505.csv,6475,7002,train,loso_subject18,0
+subject14_00_T_pose,subject14,T pose,subject14_0505.csv,145,176,train,loso_subject18,0
+subject14_01_pose_1,subject14,pose_1,subject14_0505.csv,217,733,train,loso_subject18,0
+subject14_02_pose_2,subject14,pose_2,subject14_0505.csv,735,1252,train,loso_subject18,0
+subject14_03_pose_3,subject14,pose_3,subject14_0505.csv,1264,1802,train,loso_subject18,0
+subject14_04_pose_4,subject14,pose_4,subject14_0505.csv,1891,2383,train,loso_subject18,0
+subject14_05_pose_5,subject14,pose_5,subject14_0505.csv,2396,2939,train,loso_subject18,0
+subject14_06_pose_6,subject14,pose_6,subject14_0505.csv,2963,3485,train,loso_subject18,0
+subject14_07_pose_7,subject14,pose_7,subject14_0505.csv,3596,4140,train,loso_subject18,0
+subject14_08_pose_8,subject14,pose_8,subject14_0505.csv,4144,4695,train,loso_subject18,0
+subject14_09_pose_9,subject14,pose_9,subject14_0505.csv,4716,5266,train,loso_subject18,0
+subject14_10_pose_10,subject14,pose_10,subject14_0505.csv,5272,5825,train,loso_subject18,0
+subject14_11_free_form,subject14,free_form,subject14_0505.csv,5830,6371,train,loso_subject18,0
+subject14_12_walk,subject14,walk,subject14_0505.csv,6388,6956,train,loso_subject18,0
+subject14_13_T_pose_2,subject14,T pose,subject14_0505.csv,6971,6975,train,loso_subject18,0
+subject15_00_T_pose,subject15,T pose,subject15_0508.csv,192,238,train,loso_subject18,0
+subject15_01_pose_1,subject15,pose_1,subject15_0508.csv,245,786,train,loso_subject18,0
+subject15_02_pose_2,subject15,pose_2,subject15_0508.csv,788,1319,train,loso_subject18,0
+subject15_03_pose_3,subject15,pose_3,subject15_0508.csv,1319,1855,train,loso_subject18,0
+subject15_04_pose_4,subject15,pose_4,subject15_0508.csv,1884,2380,train,loso_subject18,0
+subject15_05_pose_5,subject15,pose_5,subject15_0508.csv,2392,2916,train,loso_subject18,0
+subject15_06_pose_6,subject15,pose_6,subject15_0508.csv,2921,3429,train,loso_subject18,0
+subject15_07_pose_7,subject15,pose_7,subject15_0508.csv,3460,3956,train,loso_subject18,0
+subject15_08_pose_8,subject15,pose_8,subject15_0508.csv,3971,4468,train,loso_subject18,0
+subject15_09_pose_9,subject15,pose_9,subject15_0508.csv,4509,5029,train,loso_subject18,0
+subject15_10_pose_10,subject15,pose_10,subject15_0508.csv,5107,5622,train,loso_subject18,0
+subject15_11_free_form,subject15,free_form,subject15_0508.csv,5675,6219,train,loso_subject18,0
+subject15_12_walk,subject15,walk,subject15_0508.csv,6240,6748,train,loso_subject18,0
+subject15_13_T_pose_2,subject15,T pose,subject15_0508.csv,6768,6781,train,loso_subject18,0
+subject16_00_T_pose,subject16,T pose,subject16_0508.csv,161,206,train,loso_subject18,0
+subject16_01_pose_1,subject16,pose_1,subject16_0508.csv,252,742,train,loso_subject18,0
+subject16_02_pose_2,subject16,pose_2,subject16_0508.csv,746,1283,train,loso_subject18,0
+subject16_03_pose_3,subject16,pose_3,subject16_0508.csv,1290,1827,train,loso_subject18,0
+subject16_04_pose_4,subject16,pose_4,subject16_0508.csv,1874,2364,train,loso_subject18,0
+subject16_05_pose_5,subject16,pose_5,subject16_0508.csv,2372,2902,train,loso_subject18,0
+subject16_06_pose_6,subject16,pose_6,subject16_0508.csv,2921,3460,train,loso_subject18,0
+subject16_07_pose_7,subject16,pose_7,subject16_0508.csv,3525,4060,train,loso_subject18,0
+subject16_08_pose_8,subject16,pose_8,subject16_0508.csv,4062,4586,train,loso_subject18,0
+subject16_09_pose_9,subject16,pose_9,subject16_0508.csv,4593,5164,train,loso_subject18,0
+subject16_10_pose_10,subject16,pose_10,subject16_0508.csv,5165,5798,train,loso_subject18,0
+subject16_11_free_form,subject16,free_form,subject16_0508.csv,5811,6340,train,loso_subject18,0
+subject16_12_walk,subject16,walk,subject16_0508.csv,6354,6882,train,loso_subject18,0
+subject16_13_T_pose_2,subject16,T pose,subject16_0508.csv,6904,6918,train,loso_subject18,0
+subject17_00_T_pose,subject17,T pose,subject17_0510.csv,172,207,train,loso_subject18,0
+subject17_01_pose_1,subject17,pose_1,subject17_0510.csv,223,760,train,loso_subject18,0
+subject17_02_pose_2,subject17,pose_2,subject17_0510.csv,761,1291,train,loso_subject18,0
+subject17_03_pose_3,subject17,pose_3,subject17_0510.csv,1292,1798,train,loso_subject18,0
+subject17_04_pose_4,subject17,pose_4,subject17_0510.csv,1846,2300,train,loso_subject18,0
+subject17_05_pose_5,subject17,pose_5,subject17_0510.csv,2316,2830,train,loso_subject18,0
+subject17_06_pose_6,subject17,pose_6,subject17_0510.csv,2848,3366,train,loso_subject18,0
+subject17_07_pose_7,subject17,pose_7,subject17_0510.csv,3388,3934,train,loso_subject18,0
+subject17_08_pose_8,subject17,pose_8,subject17_0510.csv,3939,4453,train,loso_subject18,0
+subject17_09_pose_9,subject17,pose_9,subject17_0510.csv,4457,5001,train,loso_subject18,0
+subject17_10_pose_10,subject17,pose_10,subject17_0510.csv,5007,5518,train,loso_subject18,0
+subject17_11_free_form,subject17,free_form,subject17_0510.csv,5523,6037,train,loso_subject18,0
+subject17_12_walk,subject17,walk,subject17_0510.csv,6046,6558,train,loso_subject18,0
+subject17_13_T_pose_2,subject17,T pose,subject17_0510.csv,6581,6597,train,loso_subject18,0
+subject18_00_T_pose,subject18,T pose,subject18_0511.csv,153,199,test,loso_subject18,0
+subject18_01_pose_1,subject18,pose_1,subject18_0511.csv,223,754,test,loso_subject18,0
+subject18_02_pose_2,subject18,pose_2,subject18_0511.csv,756,1349,test,loso_subject18,0
+subject18_03_pose_3,subject18,pose_3,subject18_0511.csv,1352,1907,test,loso_subject18,0
+subject18_04_pose_4,subject18,pose_4,subject18_0511.csv,1910,2466,test,loso_subject18,0
+subject18_05_pose_5,subject18,pose_5,subject18_0511.csv,2476,3047,test,loso_subject18,0
+subject18_06_pose_6,subject18,pose_6,subject18_0511.csv,3054,3614,test,loso_subject18,0
+subject18_07_pose_7,subject18,pose_7,subject18_0511.csv,3619,4207,test,loso_subject18,0
+subject18_08_pose_8,subject18,pose_8,subject18_0511.csv,4213,4780,test,loso_subject18,0
+subject18_09_pose_9,subject18,pose_9,subject18_0511.csv,4783,5343,test,loso_subject18,0
+subject18_10_pose_10,subject18,pose_10,subject18_0511.csv,5352,5926,test,loso_subject18,0
+subject18_11_free_form,subject18,free_form,subject18_0511.csv,5930,6531,test,loso_subject18,0
+subject18_12_walk,subject18,walk,subject18_0511.csv,6535,7094,test,loso_subject18,0
+subject18_13_T_pose_2,subject18,T pose,subject18_0511.csv,7116,7126,test,loso_subject18,0
+subject19_00_T_pose,subject19,T pose,subject19_0513.csv,143,181,train,loso_subject18,0
+subject19_01_pose_1,subject19,pose_1,subject19_0513.csv,202,741,train,loso_subject18,0
+subject19_02_pose_2,subject19,pose_2,subject19_0513.csv,743,1275,train,loso_subject18,0
+subject19_03_pose_3,subject19,pose_3,subject19_0513.csv,1282,1833,train,loso_subject18,0
+subject19_04_pose_4,subject19,pose_4,subject19_0513.csv,1911,2436,train,loso_subject18,0
+subject19_05_pose_5,subject19,pose_5,subject19_0513.csv,2453,2987,train,loso_subject18,0
+subject19_06_pose_6,subject19,pose_6,subject19_0513.csv,3016,3554,train,loso_subject18,0
+subject19_07_pose_7,subject19,pose_7,subject19_0513.csv,3605,4151,train,loso_subject18,0
+subject19_08_pose_8,subject19,pose_8,subject19_0513.csv,4156,4700,train,loso_subject18,0
+subject19_09_pose_9,subject19,pose_9,subject19_0513.csv,4716,5264,train,loso_subject18,0
+subject19_10_pose_10,subject19,pose_10,subject19_0513.csv,5265,5798,train,loso_subject18,0
+subject19_11_free_form,subject19,free_form,subject19_0513.csv,5804,6351,train,loso_subject18,0
+subject19_12_walk,subject19,walk,subject19_0513.csv,6369,6922,train,loso_subject18,0
+subject19_13_T_pose_2,subject19,T pose,subject19_0513.csv,6943,6973,train,loso_subject18,0
+subject2_00_T_pose,subject2,T pose,subject2_0428.csv,44,82,train,loso_subject18,0
+subject2_01_pose_1,subject2,pose_1,subject2_0428.csv,91,698,train,loso_subject18,0
+subject2_02_pose_2,subject2,pose_2,subject2_0428.csv,701,1231,train,loso_subject18,0
+subject2_03_pose_3,subject2,pose_3,subject2_0428.csv,1234,1799,train,loso_subject18,0
+subject2_04_pose_4,subject2,pose_4,subject2_0428.csv,1836,2326,train,loso_subject18,0
+subject2_05_pose_5,subject2,pose_5,subject2_0428.csv,2332,2875,train,loso_subject18,0
+subject2_06_pose_6,subject2,pose_6,subject2_0428.csv,2879,3423,train,loso_subject18,0
+subject2_07_pose_7,subject2,pose_7,subject2_0428.csv,3517,4062,train,loso_subject18,0
+subject2_08_pose_8,subject2,pose_8,subject2_0428.csv,4067,4615,train,loso_subject18,0
+subject2_09_pose_9,subject2,pose_9,subject2_0428.csv,4670,5200,train,loso_subject18,0
+subject2_10_pose_10,subject2,pose_10,subject2_0428.csv,5204,5720,train,loso_subject18,0
+subject2_11_free_form,subject2,free_form,subject2_0428.csv,5722,6400,train,loso_subject18,0
+subject2_12_walk,subject2,walk,subject2_0428.csv,6413,7193,train,loso_subject18,0
+subject20_00_T_pose,subject20,T pose,subject20_0513.csv,132,157,train,loso_subject18,0
+subject20_01_pose_1,subject20,pose_1,subject20_0513.csv,167,713,train,loso_subject18,0
+subject20_02_pose_2,subject20,pose_2,subject20_0513.csv,729,1259,train,loso_subject18,0
+subject20_03_pose_3,subject20,pose_3,subject20_0513.csv,1260,1802,train,loso_subject18,0
+subject20_04_pose_4,subject20,pose_4,subject20_0513.csv,1856,2394,train,loso_subject18,0
+subject20_05_pose_5,subject20,pose_5,subject20_0513.csv,2413,2950,train,loso_subject18,0
+subject20_06_pose_6,subject20,pose_6,subject20_0513.csv,2954,3524,train,loso_subject18,0
+subject20_07_pose_7,subject20,pose_7,subject20_0513.csv,3526,4082,train,loso_subject18,0
+subject20_08_pose_8,subject20,pose_8,subject20_0513.csv,4090,4608,train,loso_subject18,0
+subject20_09_pose_9,subject20,pose_9,subject20_0513.csv,4626,5163,train,loso_subject18,0
+subject20_10_pose_10,subject20,pose_10,subject20_0513.csv,5168,5713,train,loso_subject18,0
+subject20_11_free_form,subject20,free_form,subject20_0513.csv,5719,6267,train,loso_subject18,0
+subject20_12_walk,subject20,walk,subject20_0513.csv,6271,6808,train,loso_subject18,0
+subject20_13_T_pose_2,subject20,T pose,subject20_0513.csv,6832,6859,train,loso_subject18,0
+subject3_00_T_pose,subject3,T pose,subject3_0501.csv,58,98,train,loso_subject18,0
+subject3_01_pose_1,subject3,pose_1,subject3_0501.csv,105,673,train,loso_subject18,0
+subject3_02_pose_2,subject3,pose_2,subject3_0501.csv,675,1238,train,loso_subject18,0
+subject3_03_pose_3,subject3,pose_3,subject3_0501.csv,1239,1797,train,loso_subject18,0
+subject3_04_pose_4,subject3,pose_4,subject3_0501.csv,1800,2364,train,loso_subject18,0
+subject3_05_pose_5,subject3,pose_5,subject3_0501.csv,2365,2998,train,loso_subject18,0
+subject3_06_pose_6,subject3,pose_6,subject3_0501.csv,3000,3556,train,loso_subject18,0
+subject3_07_pose_7,subject3,pose_7,subject3_0501.csv,3558,4125,train,loso_subject18,0
+subject3_08_pose_8,subject3,pose_8,subject3_0501.csv,4127,4698,train,loso_subject18,0
+subject3_09_pose_9,subject3,pose_9,subject3_0501.csv,4771,5329,train,loso_subject18,0
+subject3_10_pose_10,subject3,pose_10,subject3_0501.csv,5330,5889,train,loso_subject18,0
+subject3_11_free_form,subject3,free_form,subject3_0501.csv,5890,6471,train,loso_subject18,0
+subject3_12_walk,subject3,walk,subject3_0501.csv,6484,7039,train,loso_subject18,0
+subject4_00_T_pose,subject4,T pose,subject4_0501.csv,38,93,train,loso_subject18,0
+subject4_01_pose_1,subject4,pose_1,subject4_0501.csv,115,638,train,loso_subject18,0
+subject4_02_pose_2,subject4,pose_2,subject4_0501.csv,641,1175,train,loso_subject18,0
+subject4_03_pose_3,subject4,pose_3,subject4_0501.csv,1176,1755,train,loso_subject18,0
+subject4_04_pose_4,subject4,pose_4,subject4_0501.csv,1762,2329,train,loso_subject18,0
+subject4_05_pose_5,subject4,pose_5,subject4_0501.csv,2332,2890,train,loso_subject18,0
+subject4_06_pose_6,subject4,pose_6,subject4_0501.csv,2892,3478,train,loso_subject18,0
+subject4_07_pose_7,subject4,pose_7,subject4_0501.csv,3523,4092,train,loso_subject18,0
+subject4_08_pose_8,subject4,pose_8,subject4_0501.csv,4100,4664,train,loso_subject18,0
+subject4_09_pose_9,subject4,pose_9,subject4_0501.csv,4672,5260,train,loso_subject18,0
+subject4_10_pose_10,subject4,pose_10,subject4_0501.csv,5261,5834,train,loso_subject18,0
+subject4_11_free_form,subject4,free_form,subject4_0501.csv,5838,6236,train,loso_subject18,0
+subject4_12_walk,subject4,walk,subject4_0501.csv,6258,6930,train,loso_subject18,0
+subject5_00_T_pose,subject5,T pose,subject5_0502.csv,15,44,train,loso_subject18,0
+subject5_01_pose_1,subject5,pose_1,subject5_0502.csv,57,608,train,loso_subject18,0
+subject5_02_pose_2,subject5,pose_2,subject5_0502.csv,608,1165,train,loso_subject18,0
+subject5_03_pose_3,subject5,pose_3,subject5_0502.csv,1167,1765,train,loso_subject18,0
+subject5_04_pose_4,subject5,pose_4,subject5_0502.csv,1820,2407,train,loso_subject18,0
+subject5_05_pose_5,subject5,pose_5,subject5_0502.csv,2410,3010,train,loso_subject18,0
+subject5_06_pose_6,subject5,pose_6,subject5_0502.csv,3022,3632,train,loso_subject18,0
+subject5_07_pose_7,subject5,pose_7,subject5_0502.csv,3729,4256,train,loso_subject18,0
+subject5_08_pose_8,subject5,pose_8,subject5_0502.csv,4265,4820,train,loso_subject18,0
+subject5_09_pose_9,subject5,pose_9,subject5_0502.csv,4825,5420,train,loso_subject18,0
+subject5_10_pose_10,subject5,pose_10,subject5_0502.csv,5423,5983,train,loso_subject18,0
+subject5_11_free_form,subject5,free_form,subject5_0502.csv,5986,6571,train,loso_subject18,0
+subject5_12_walk,subject5,walk,subject5_0502.csv,6640,7233,train,loso_subject18,0
+subject6_00_T_pose,subject6,T pose,subject6_0503.csv,67,96,train,loso_subject18,0
+subject6_01_pose_1,subject6,pose_1,subject6_0503.csv,106,663,train,loso_subject18,0
+subject6_02_pose_2,subject6,pose_2,subject6_0503.csv,664,1273,train,loso_subject18,0
+subject6_03_pose_3,subject6,pose_3,subject6_0503.csv,1274,1834,train,loso_subject18,0
+subject6_04_pose_4,subject6,pose_4,subject6_0503.csv,1838,2408,train,loso_subject18,0
+subject6_05_pose_5,subject6,pose_5,subject6_0503.csv,2409,2966,train,loso_subject18,0
+subject6_06_pose_6,subject6,pose_6,subject6_0503.csv,2968,3506,train,loso_subject18,0
+subject6_07_pose_7,subject6,pose_7,subject6_0503.csv,3677,4156,train,loso_subject18,0
+subject6_08_pose_8,subject6,pose_8,subject6_0503.csv,4158,4749,train,loso_subject18,0
+subject6_09_pose_9,subject6,pose_9,subject6_0503.csv,4751,5303,train,loso_subject18,0
+subject6_10_pose_10,subject6,pose_10,subject6_0503.csv,5304,5860,train,loso_subject18,0
+subject6_11_free_form,subject6,free_form,subject6_0503.csv,5861,6420,train,loso_subject18,0
+subject6_12_walk,subject6,walk,subject6_0503.csv,6424,6972,train,loso_subject18,0
+subject6_13_T_pose_2,subject6,T pose,subject6_0503.csv,6998,7012,train,loso_subject18,0
+subject7_00_T_pose,subject7,T pose,subject7_0503.csv,66,99,train,loso_subject18,0
+subject7_01_pose_1,subject7,pose_1,subject7_0503.csv,107,656,train,loso_subject18,0
+subject7_02_pose_2,subject7,pose_2,subject7_0503.csv,658,1200,train,loso_subject18,0
+subject7_03_pose_3,subject7,pose_3,subject7_0503.csv,1203,1755,train,loso_subject18,0
+subject7_04_pose_4,subject7,pose_4,subject7_0503.csv,1804,2348,train,loso_subject18,0
+subject7_05_pose_5,subject7,pose_5,subject7_0503.csv,2350,2900,train,loso_subject18,0
+subject7_06_pose_6,subject7,pose_6,subject7_0503.csv,2901,3446,train,loso_subject18,0
+subject7_07_pose_7,subject7,pose_7,subject7_0503.csv,3496,4044,train,loso_subject18,0
+subject7_08_pose_8,subject7,pose_8,subject7_0503.csv,4045,4607,train,loso_subject18,0
+subject7_09_pose_9,subject7,pose_9,subject7_0503.csv,4608,5155,train,loso_subject18,0
+subject7_10_pose_10,subject7,pose_10,subject7_0503.csv,5155,5692,train,loso_subject18,0
+subject7_11_free_form,subject7,free_form,subject7_0503.csv,5693,6252,train,loso_subject18,0
+subject7_12_walk,subject7,walk,subject7_0503.csv,6254,6808,train,loso_subject18,0
+subject7_13_T_pose_2,subject7,T pose,subject7_0503.csv,6841,6904,train,loso_subject18,0
+subject8_00_T_pose,subject8,T pose,subject8_0503.csv,45,71,train,loso_subject18,0
+subject8_01_pose_1,subject8,pose_1,subject8_0503.csv,81,622,train,loso_subject18,0
+subject8_02_pose_2,subject8,pose_2,subject8_0503.csv,623,1202,train,loso_subject18,0
+subject8_03_pose_3,subject8,pose_3,subject8_0503.csv,1203,1734,train,loso_subject18,0
+subject8_04_pose_4,subject8,pose_4,subject8_0503.csv,1736,2323,train,loso_subject18,0
+subject8_05_pose_5,subject8,pose_5,subject8_0503.csv,2324,2894,train,loso_subject18,0
+subject8_06_pose_6,subject8,pose_6,subject8_0503.csv,2910,3467,train,loso_subject18,0
+subject8_07_pose_7,subject8,pose_7,subject8_0503.csv,3470,4040,train,loso_subject18,0
+subject8_08_pose_8,subject8,pose_8,subject8_0503.csv,4043,4599,train,loso_subject18,0
+subject8_09_pose_9,subject8,pose_9,subject8_0503.csv,4625,5160,train,loso_subject18,0
+subject8_10_pose_10,subject8,pose_10,subject8_0503.csv,5172,5735,train,loso_subject18,0
+subject8_11_free_form,subject8,free_form,subject8_0503.csv,5776,6301,train,loso_subject18,0
+subject8_12_walk,subject8,walk,subject8_0503.csv,6318,6861,train,loso_subject18,0
+subject9_00_T_pose,subject9,T pose,subject9_0504.csv,66,87,train,loso_subject18,0
+subject9_01_pose_1,subject9,pose_1,subject9_0504.csv,104,630,train,loso_subject18,0
+subject9_02_pose_2,subject9,pose_2,subject9_0504.csv,641,1179,train,loso_subject18,0
+subject9_03_pose_3,subject9,pose_3,subject9_0504.csv,1192,1751,train,loso_subject18,0
+subject9_04_pose_4,subject9,pose_4,subject9_0504.csv,1813,2312,train,loso_subject18,0
+subject9_05_pose_5,subject9,pose_5,subject9_0504.csv,2319,2875,train,loso_subject18,0
+subject9_06_pose_6,subject9,pose_6,subject9_0504.csv,2880,3452,train,loso_subject18,0
+subject9_07_pose_7,subject9,pose_7,subject9_0504.csv,3490,4018,train,loso_subject18,0
+subject9_08_pose_8,subject9,pose_8,subject9_0504.csv,4020,4562,train,loso_subject18,0
+subject9_09_pose_9,subject9,pose_9,subject9_0504.csv,4579,5112,train,loso_subject18,0
+subject9_10_pose_10,subject9,pose_10,subject9_0504.csv,5120,5661,train,loso_subject18,0
+subject9_11_free_form,subject9,free_form,subject9_0504.csv,5665,6246,train,loso_subject18,0
+subject9_12_walk,subject9,walk,subject9_0504.csv,6272,6769,train,loso_subject18,0
+subject9_13_T_pose_2,subject9,T pose,subject9_0504.csv,6803,6815,train,loso_subject18,0

@@ -1,0 +1,11 @@
+# Table 5. Alignment / adapter / calibration (negative results)
+
+| method | har_or_activity | radar_id | gate |
+|---|---|---|---|
+| shared encoder (known-radar) | 0.946 | 0.993 | known-radar baseline; not zero-shot |
+| radar-specific adapters | 0.878 | 0.986 | NOT IMPROVED |
+| adapters + alignment | 0.782 | 1.000 | NOT IMPROVED; known-radar joint task |
+| C0–C4 calibration | 0.864 | 0.980 | VAL gate FAIL; 3-radar Radar-ID |
+| per-velocity affine | 0.857 | 0.949 | FAIL; 24/77 Radar-ID |
+
+A0–A2 HAR is known-radar joint accuracy. Radar-ID protocols differ by row; see gate column.

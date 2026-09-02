@@ -1,0 +1,96 @@
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*
+secrets/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+*.egg-info/
+.ipynb_checkpoints/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+__MACOSX/
+
+# Raw / local data
+data/
+data/raw/
+data/cache/
+*.h5
+*.bin
+*.dat
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# Large caches
+*.npz
+*.npy
+*.tar
+*.tar.gz
+cache/
+caches/
+**/cache/
+
+# Training outputs (root-level only; keep results/**/runs/*/metrics.json)
+/runs/
+wandb/
+logs/
+tmp/
+temp/
+local/
+private/
+
+# Large / local experiment artifacts
+build_artifacts/
+gpu_jobs/
+experiments/png_physics_probe/data/
+notes/
+
+# External repositories (nested .git)
+third_party/
+competitors/
+
+# Documents / presentation drafts (current manuscript drafts stay local)
+*.doc
+*.docx
+*.ppt
+*.pptx
+*.pdf
+
+# Path-dump and machine-local result files
+results/data/
+results/splits/
+results/data_audit/
+results/acquisition_toolkit_v01/
+results/phase1_pointcloud/failed_samples.csv
+results/phase1_pointcloud/mri_manifest.csv
+results/phase4_continuous/predicted_timelines/
+results/phase8_physical_representation/r2_cache_manifest.csv
+results/phase8_physical_representation/raw_access.json
+results/phase8_physical_representation/remote_zip_probe.json
+results/phase8_physical_representation/smoke_morphology.json
+results/phase8_physical_representation/smoke_gate.json
+results/phase10_unified_measurement/representation_manifest.csv
+results/phase10_velocity_calibration/r2v_manifest.csv
+results/**/*_cache_manifest.csv
+
+# Historical lock with machine-specific URL (optional local pin)
+requirements_lock.txt

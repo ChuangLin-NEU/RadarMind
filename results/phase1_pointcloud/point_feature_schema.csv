@@ -1,0 +1,11 @@
+dataset,feature,raw_name,unit,min,max,mean,std,evidence
+mRI,x,X,UNIT_UNKNOWN,-3.3388671875,3.234375,-0.0718097351428028,0.8499661102313045,"Dryad README: X,Y,Z=3D coordinates; Doppler=Doppler velocity; Intensity=reflected power; Time=wall timestamp. No unit string. JSON ranges match Frame # (DAP-Net)."
+mRI,y,Y,UNIT_UNKNOWN,0.0,3.3388671875,2.2157172066898307,0.619019527827904,"Dryad README: X,Y,Z=3D coordinates; Doppler=Doppler velocity; Intensity=reflected power; Time=wall timestamp. No unit string. JSON ranges match Frame # (DAP-Net)."
+mRI,z,Z,UNIT_UNKNOWN,-3.3388671875,3.3388671875,0.023229887331812023,0.7961021991509668,"Dryad README: X,Y,Z=3D coordinates; Doppler=Doppler velocity; Intensity=reflected power; Time=wall timestamp. No unit string. JSON ranges match Frame # (DAP-Net)."
+mRI,velocity,Doppler,UNIT_UNKNOWN,-5.340054512023926,4.98405122756958,0.0008782564446268339,0.4939423524392397,"Dryad README: X,Y,Z=3D coordinates; Doppler=Doppler velocity; Intensity=reflected power; Time=wall timestamp. No unit string. JSON ranges match Frame # (DAP-Net)."
+mRI,intensity,Intensity,UNIT_UNKNOWN,1.0,1407.0,27.889170901255074,35.44638658769357,"Dryad README: X,Y,Z=3D coordinates; Doppler=Doppler velocity; Intensity=reflected power; Time=wall timestamp. No unit string. JSON ranges match Frame # (DAP-Net)."
+RadHAR,x,x,m,0.001953125,7.65625,2.1054586185186643,1.87794454624826,"RadHAR README: x front m, y right-positive m, z up m, velocity range-rate m/s, intensity dB. New frame when point_id==0."
+RadHAR,y,y,m,-5.0625,3.54296875,-0.12712674197028104,0.33076006913190037,"RadHAR README: x front m, y right-positive m, z up m, velocity range-rate m/s, intensity dB. New frame when point_id==0."
+RadHAR,z,z,m,-7.568359375,7.41796875,0.24563184233864316,0.7987622297141325,"RadHAR README: x front m, y right-positive m, z up m, velocity range-rate m/s, intensity dB. New frame when point_id==0."
+RadHAR,velocity,velocity,m/s,-4.917349338531494,111.2550277709961,-0.00019207710366445844,0.480628452732178,"RadHAR README: x front m, y right-positive m, z up m, velocity range-rate m/s, intensity dB. New frame when point_id==0."
+RadHAR,intensity,intensity,dB,15.314788818359375,36.857418060302734,28.280160764675244,3.8011019171994183,"RadHAR README: x front m, y right-positive m, z up m, velocity range-rate m/s, intensity dB. New frame when point_id==0."

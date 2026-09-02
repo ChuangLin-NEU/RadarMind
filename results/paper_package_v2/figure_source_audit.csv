@@ -1,0 +1,14 @@
+figure,panel,source_file,metric,generation_script
+fig1_benchmark.png,schematic,results/paper_package_v2/metric_snapshot.json,"N_PAIRED_ACQ,N_ACTIONS,SPLIT_TRAIN,SPLIT_VAL,SPLIT_TEST",scripts/write_paper_package_v2.py
+fig2_within_cross.png,matrix,results/paper_package_v2/metric_snapshot.json,"R0_10_WITHIN,R0_10_TO_24,R0_10_TO_77,R0_24_TO_10,R0_24_WITHIN,R0_24_TO_77,R0_77_TO_10,R0_77_TO_24,R0_77_WITHIN",scripts/write_paper_package_v2.py
+fig3_representation.png,line,results/paper_package_v2/metric_snapshot.json,"RID_R0_3CLASS,RID_R1_3CLASS,RID_R2D_3CLASS",scripts/write_paper_package_v2.py
+fig4_radar_id.png,A,results/paper_package_v2/metric_snapshot.json,"RID_R0_3CLASS,RID_R1_3CLASS,RID_R2D_3CLASS",scripts/write_paper_package_v2.py
+fig4_radar_id.png,B,results/paper_package_v2/metric_snapshot.json,"RID_R2D_2477,RID_R2V_2477,U1_RID",scripts/write_paper_package_v2.py
+fig5_processing.png,A,results/paper_package_v2/metric_snapshot.json,"U0_RID,U1_RID,U2_RID,M2_RID",scripts/write_paper_package_v2.py
+fig5_processing.png,B,results/paper_package_v2/metric_snapshot.json,"C0_RID,CBEST_RID",scripts/write_paper_package_v2.py
+fig6_tradeoff.png,A,results/paper_package_v2/metric_snapshot.json,"RID_R2D_3CLASS/ACT_R2D_REP,RID_R1_3CLASS/ACT_R1_REP",scripts/write_paper_package_v2.py
+fig6_tradeoff.png,B,results/paper_package_v2/metric_snapshot.json,"RID_A0_INPUT/A0_ACC,RID_A1_ADAPTER/A1_ACC,RID_A2_EMBED/A2_ACC",scripts/write_paper_package_v2.py
+fig6_tradeoff.png,C,results/paper_package_v2/metric_snapshot.json,"FAC_RID/FAC_ACT,FAC_RID_STABLE/FAC_ACT_STABLE",scripts/write_paper_package_v2.py
+fig7_dvq.png,bars,results/paper_package_v2/metric_snapshot.json,"D2477_B0_R2,D2477_B1_R2,D7724_B0_R2,D7724_B1_R2",scripts/write_paper_package_v2.py
+fig8_lowrank.png,bars,results/paper_package_v2/metric_snapshot.json,"ORACLE_R2_2D,B2_R2_2477,B2_R2_7724,K20_TRAIN_VAR",scripts/write_paper_package_v2.py
+fig9_ladder.png,schematic,results/paper_package_v2/metric_snapshot.json,narrative,scripts/write_paper_package_v2.py

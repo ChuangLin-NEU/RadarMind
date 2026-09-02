@@ -1,0 +1,137 @@
+[
+  {
+    "finding_id": "F1",
+    "claim": "Less-strict evaluation can overestimate generalization. CI4R random-record Acc=0.742 vs prefix-group-disjoint Acc=0.448. The latter is an acquisition-group split, not cross-subject. True cross-subject evidence is mRI SI Acc=0.478 vs random-segment Acc=0.511.",
+    "evidence": "phase1_ci4r resnet18 metrics; phase1_pointcloud training_runs.csv",
+    "supporting_experiments": [
+      "phase1a_random",
+      "phase1a_prefix",
+      "phase1b_mri_si",
+      "phase1b_mri_random"
+    ],
+    "strength": "STRONG",
+    "limitations": "CI4R has no reliable official subject ID. Single seed."
+  },
+  {
+    "finding_id": "F2",
+    "claim": "Temporal modeling matters for point-cloud radar HAR. mRI SI XYZVI T=1 Acc=0.254 vs T=32 Acc=0.465. RadHAR official XYZVI T=1 Acc=0.607 vs XYZV T=60 Acc=0.949.",
+    "evidence": "training_runs.csv temporal rows",
+    "supporting_experiments": [
+      "mri_si_pool_t1",
+      "mri_si_gru_xyzvi",
+      "radhar_pool_t1",
+      "radhar_gru_xyzv"
+    ],
+    "strength": "STRONG",
+    "limitations": "T=1 uses PointNetPool, T>1 uses PointNet-GRU; architecture is not identical."
+  },
+  {
+    "finding_id": "F3",
+    "claim": "Velocity contribution is dataset-dependent. mRI SI XYZ Acc=0.478 ≥ XYZV 0.471 ≥ XYZVI 0.465. RadHAR XYZV Acc=0.949 >> XYZ 0.868.",
+    "evidence": "training_runs.csv feature ablation",
+    "supporting_experiments": [
+      "mri_si_gru_xyz/v/vi",
+      "radhar_gru_xyz/v/vi"
+    ],
+    "strength": "STRONG",
+    "limitations": "Single seed. RadHAR official split is not subject-independent."
+  },
+  {
+    "finding_id": "F4",
+    "claim": "Cross-radar generalization is much harder than within-radar recognition on CI4R official PNG 7-class. Within 10/24/77 Acc=0.843/0.898/0.922. Zero-shot transfers drop to 0.039–0.373.",
+    "evidence": "phase2_cross_radar/training_runs.csv",
+    "supporting_experiments": [
+      "within_*",
+      "cross_*"
+    ],
+    "strength": "STRONG",
+    "limitations": "Official PNG; 327 agreed triples. Single seed."
+  },
+  {
+    "finding_id": "F5",
+    "claim": "24 GHz shows particularly severe transfer difficulty. 24→77 Acc=0.039, 10→24 Acc=0.143, 77→24 Acc=0.163. 24 GHz official PNG native size is 128×128 vs much larger 10/77 images, a possible representation confound.",
+    "evidence": "phase2 training_runs; Phase 3 report on PNG sizes",
+    "supporting_experiments": [
+      "cross_24_to_77",
+      "cross_10_to_24",
+      "cross_77_to_24"
+    ],
+    "strength": "MODERATE",
+    "limitations": "Confound between sensor physics and PNG preprocessing is not isolated."
+  },
+  {
+    "finding_id": "F6",
+    "claim": "Simple CORAL alignment does not solve cross-radar generalization. 77→10 source-only Acc=0.275, CORAL Acc=0.196.",
+    "evidence": "phase2 coral_uda_77_to_10 vs cross_77_to_10",
+    "supporting_experiments": [
+      "cross_77_to_10",
+      "coral_uda_77_to_10"
+    ],
+    "strength": "STRONG",
+    "limitations": "One CORAL setting, not a search. Negative result only for this baseline."
+  },
+  {
+    "finding_id": "F7",
+    "claim": "Paired cross-radar contrastive learning improves the multi-radar shared task and retrieval. Task A Acc M0=0.769 → M1=0.932. Action retrieval top-1 0.718 → 0.935. This is a shared-task result, not leave-one-radar-out success.",
+    "evidence": "phase3 training_runs + representation_metrics",
+    "supporting_experiments": [
+      "M0_shared",
+      "M1_l01"
+    ],
+    "strength": "STRONG",
+    "limitations": "All three radars seen in Task A training. Does not imply sensor invariance."
+  },
+  {
+    "finding_id": "F8",
+    "claim": "Current embeddings remain strongly radar-identifiable. Radar-ID linear probe = 1.000 for M0, M1, and M2.",
+    "evidence": "representation_metrics.csv radar_probe_accuracy",
+    "supporting_experiments": [
+      "M0",
+      "M1",
+      "M2 probes"
+    ],
+    "strength": "STRONG",
+    "limitations": "Linear probe only."
+  },
+  {
+    "finding_id": "F9",
+    "claim": "Shared Motion v0.1 is not sensor-invariant. F7 and F8 together: activity/retrieval can improve while radar identity remains fully readable. LORO M2 does not beat M0.",
+    "evidence": "Radar-ID=1.0; LORO rows in training_runs.csv",
+    "supporting_experiments": [
+      "probes",
+      "LORO M0/M2"
+    ],
+    "strength": "STRONG",
+    "limitations": "v0.1 only. No adversarial training in this freeze."
+  },
+  {
+    "finding_id": "F10",
+    "claim": "Labeled-interval continuous classification works at window level (confidence-aware Acc=0.494 / F1=0.419) but segment boundaries remain poor (segment F1=0.152, mean of median boundary error 190.8 frames).",
+    "evidence": "phase4 continuous_runs / segment_metrics / boundary_metrics",
+    "supporting_experiments": [
+      "phase4 test subjects 3/10/20"
+    ],
+    "strength": "STRONG",
+    "limitations": "Not full-stream. UNLABELED intervals have no radar inference."
+  },
+  {
+    "finding_id": "F11",
+    "claim": "Closed-set confidence is a poor unknown-motion detector. 13-fold MSP AUROC 0.476 ± 0.156, FPR95 0.903 ± 0.138.",
+    "evidence": "phase5 eval_summary.json",
+    "supporting_experiments": [
+      "LOAO MSP"
+    ],
+    "strength": "STRONG",
+    "limitations": "Threshold from val-known 5th percentile. Single seed per fold."
+  },
+  {
+    "finding_id": "F12",
+    "claim": "Embedding prototype distance gives a more useful open-set score than MSP (AUROC 0.628 ± 0.125) but FPR95 remains high (0.791). This is open-set recognition, not open-world or open-vocabulary.",
+    "evidence": "phase5 13-fold Prototype vs MSP/Energy",
+    "supporting_experiments": [
+      "LOAO Prototype"
+    ],
+    "strength": "MODERATE",
+    "limitations": "Insufficient for open-world. pose_* held-outs remain hard."
+  }
+]

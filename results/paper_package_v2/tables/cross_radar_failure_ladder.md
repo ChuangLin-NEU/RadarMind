@@ -1,0 +1,17 @@
+# Cross-Radar Failure Ladder
+
+| Stage | Input_or_Method | Radar_ID | Activity_metric | Generalization_or_Pair | Interpretation | Footnote |
+|---|---|---|---|---|---|---|
+| Official representation | plotted PNG | 1.000 | 0.843/0.898/0.922 | 24→77 0.039 | within high, cross collapse | Radar-ID: 3-radar. Activity: 7-class HAR diagonal. |
+| Cropped representation | cropped PNG | 1.000 | 0.925 | 10→24 0.143→0.510 | plot confound, not main cause | Radar-ID: 3-radar. Activity probe ≠ HAR diagonal. |
+| Numerical Doppler | S(t, f_D) | 0.993 | 0.946 | same 0.917 vs diff 0.913 | identity remains | Radar-ID: 3-radar representation probe. |
+| Velocity alignment | 24/77 common v | 0.939 | 0.857 | sep 0.086→0.087 | weak Doppler-scaling effect | Radar-ID: 2-class 24/77 only. Not the 3-radar probe. |
+| Unified STFT | shared STFT | 0.939 | 0.867 | sep 0.105 | no Radar-ID drop | 24/77 two-radar protocol. |
+| Unified MTI | transplanted MTI | 0.980 | 0.867 | sep 0.063 | identity stronger | 24/77 two-radar protocol. |
+| Learned alignment | adapters + align | 1.000 | 0.782 | known-radar NOT IMPROVED | no invariance | A2 accuracy is known-radar joint HAR, not zero-shot. Radar-ID is embedding probe. |
+| Motion factors | 38 factors | 1.000 | 0.687 | stable RID 0.959 | activity and radar coexist | Probes on factor vectors, not spectrogram pixels. |
+| Calibration | C0–C4 / per-v affine | 0.949 | 0.857 | vel-RID 0.929 | gates fail | C-best Radar-ID is 3-radar; M2 is 24/77. Not one series. |
+| D(v|q) | Ridge velocity transfer | 0.939→1.000 | 0.867 | 24→77 R2 0.744 | predictable; calibration fails | R2 is velocity-marginal transfer prediction, not HAR. |
+| 2D low-rank | PCA+Ridge Delta | n/a (not a comparable probe) | src 0.898 → pred 0.735 | oracle R2 0.418 | low ceiling; stop translation | Oracle is TEST true Delta on TRAIN basis; not deployment. |
+
+Protocols differ across rows. Empty or n/a cells are intentional; do not force a common Radar-ID series.

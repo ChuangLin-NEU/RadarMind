@@ -1,0 +1,3 @@
+representation,n_radars,radar_id,radar_id_macro_f1,activity,activity_macro_f1,activity_pca32,n_train,n_test,note
+R2-D,2,1.0,1.0,0.8775510204081632,0.8841717288922258,0.826530612244898,458,98,16x16 logistic; 2-class radar; 7-class activity
+R2-V,2,0.9387755102040817,0.9386733416770964,0.8571428571428571,0.863312958033455,0.8469387755102041,458,98,16x16 logistic; 2-class radar; 7-class activity

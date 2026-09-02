@@ -1,0 +1,31 @@
+field,required,type,example,notes
+acquisition_id,yes,string,acq_000123,两雷达共享
+timestamp,yes,iso8601,2026-08-30T10:00:00+08:00,与视频对齐
+subject_id,yes,string,S03,稳定匿名 ID
+action_id,yes,enum,Pick,7 类之一
+repetition_id,yes,int,2,
+environment_id,yes,string,roomA,第一批固定
+session_type,yes,enum,activity,activity|calibration
+radar_id,yes,enum,24GHz,24GHz|77GHz
+fc_hz,yes,float,2.475e10,写入 header，不事后猜
+bandwidth_hz,yes,float,1.5e9,
+chirp_duration_s,yes,float,0.001,
+adc_fs_hz,yes,float,,
+n_adc,yes,int,128,
+prf_hz,yes,float,1000,
+n_rx,yes,int,4,全通道保存
+range_fft_def,yes,string,fftshift half-profile,能复现米轴
+distance_m,yes,float,3.0,subject–radar
+aspect_deg,yes,float,45,
+elevation_deg,no,float,0,能量到就记
+body_orientation_deg,yes,float,0,相对雷达 LOS
+radar_x_m,yes,float,0,房间坐标
+radar_y_m,yes,float,0,
+radar_height_m,yes,float,1.2,
+radar_yaw_deg,yes,float,0,
+start_x_m,yes,float,3.0,动作起点
+start_y_m,yes,float,0,
+end_x_m,yes,float,2.0,
+end_y_m,yes,float,0,
+raw_path,yes,path,raw/24/acq_000123.bin,IQ
+video_path,no,path,video/acq_000123.mp4,时间戳对齐

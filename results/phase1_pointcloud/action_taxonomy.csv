@@ -1,0 +1,20 @@
+dataset,original_action,normalized_action,possible_cross_dataset_match,confidence,notes
+mRI,T pose,T pose,,,static pose; no RadHAR class
+mRI,T pose 2,T pose,,,short closing T-pose on 13/20 subjects; merged to T pose for training
+mRI,pose_1,pose_1,,,mRI paper pose set; not an exercise name
+mRI,pose_2,pose_2,,,mRI paper pose set; not an exercise name
+mRI,pose_3,pose_3,,,mRI paper pose set; not an exercise name
+mRI,pose_4,pose_4,,,mRI paper pose set; not an exercise name
+mRI,pose_5,pose_5,,,mRI paper pose set; not an exercise name
+mRI,pose_6,pose_6,,,mRI paper pose set; not an exercise name
+mRI,pose_7,pose_7,,,mRI paper pose set; not an exercise name
+mRI,pose_8,pose_8,,,mRI paper pose set; not an exercise name
+mRI,pose_9,pose_9,,,mRI paper pose set; not an exercise name
+mRI,pose_10,pose_10,,,mRI paper pose set; not an exercise name
+mRI,free_form,free_form,,,unscripted motion
+mRI,walk,walk,RadHAR walk,medium,both walking; protocol/distance/speed not aligned in the packages
+RadHAR,boxing,boxing,,,
+RadHAR,jack,jumping_jack,,,jumping jack
+RadHAR,jump,jump,,,
+RadHAR,squats,squats,,,
+RadHAR,walk,walk,mRI walk,medium,only plausible name-level overlap

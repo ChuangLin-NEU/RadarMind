@@ -1,0 +1,12 @@
+{
+  "empirical_translation": "STOPPED",
+  "tune_models_on_ci4r": "NO",
+  "radar_invariant_encoder_on_current": "NO",
+  "main_bottleneck": "MISSING SPATIAL / ACQUISITION METADATA",
+  "next_resource": "DATA",
+  "learn_motion_not_sensor": "NO",
+  "case": "CLOSURE",
+  "har_trained": false,
+  "phase11": false,
+  "geometry_aware": "BLOCKED BY DATA"
+}

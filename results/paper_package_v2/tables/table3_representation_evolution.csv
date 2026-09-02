@@ -1,0 +1,4 @@
+stage,radar_id_3class,activity_or_within,note
+official plotted,1.000,0.843/0.898/0.922,7-class HAR diagonal; Radar-ID is 3-radar probe
+cropped plotted,1.000,0.925,"activity is representation-level probe, not the HAR diagonal"
+numerical Doppler,0.993,0.946,activity is representation-level probe on R2-D

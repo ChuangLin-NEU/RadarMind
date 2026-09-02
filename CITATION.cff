@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: If you use RadarMind, please cite the accompanying manuscript.
+title: "RadarMind: Toward Generalizable Human Motion Understanding Across Radar Domains"
+type: software
+authors:
+  - family-names: Luo
+    given-names: Li
+  - family-names: Sun
+    given-names: Xuehong
+preferred-citation:
+  type: article
+  title: "RadarMind: Toward Generalizable Human Motion Understanding Across Radar Domains"
+  authors:
+    - family-names: Luo
+      given-names: Li
+    - family-names: Sun
+      given-names: Xuehong
+  notes: Manuscript. Journal, volume, pages, DOI, and publication date are not assigned.

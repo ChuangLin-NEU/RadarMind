@@ -1,0 +1,30 @@
+{
+  "n_subjects": 20,
+  "n_segments": 273,
+  "n_frames_manifest": 153077,
+  "median_pts_frame": 31.0,
+  "selected_P": 64,
+  "selected_T": 32,
+  "si_subjects": {
+    "subject19": "train",
+    "subject8": "train",
+    "subject6": "train",
+    "subject4": "train",
+    "subject1": "train",
+    "subject7": "train",
+    "subject2": "train",
+    "subject11": "train",
+    "subject12": "train",
+    "subject18": "train",
+    "subject14": "train",
+    "subject16": "train",
+    "subject13": "train",
+    "subject9": "train",
+    "subject15": "val",
+    "subject5": "val",
+    "subject17": "val",
+    "subject10": "test",
+    "subject3": "test",
+    "subject20": "test"
+  }
+}

@@ -1,0 +1,2 @@
+# Research application only. Install after requirements.txt.
+streamlit

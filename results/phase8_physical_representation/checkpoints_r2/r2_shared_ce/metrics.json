@@ -1,0 +1,17 @@
+{
+  "run_id": "r2_shared_ce",
+  "protocol": "multi_radar_shared",
+  "train_radar": "10GHz+24GHz+77GHz",
+  "test_radar": "10GHz+24GHz+77GHz",
+  "method": "source_only_ce",
+  "representation": "R2-D",
+  "n_classes": 7,
+  "seed": 42,
+  "accuracy": 0.9455782312925171,
+  "macro_f1": 0.9483754439644424,
+  "n_train": 687,
+  "n_val": 147,
+  "n_test": 147,
+  "best_val_acc": 0.9251700680272109,
+  "note": "R2-D CE shared; probes/retrieval only, not a new loss"
+}

@@ -1,0 +1,30 @@
+{
+  "U0": {
+    "radar_id": 0.9387755102040817,
+    "activity": 0.8571428571428571,
+    "sep_cosine": 0.09509944231410994,
+    "geo_mean_corr": 0.13616102441086167,
+    "geo_envelope_corr": 0.09452087708012896
+  },
+  "U1": {
+    "radar_id": 0.9387755102040817,
+    "activity": 0.8673469387755102,
+    "sep_cosine": 0.10526496971328292,
+    "geo_mean_corr": 0.13419168269514634,
+    "geo_envelope_corr": 0.08822814682656355
+  },
+  "U2": {
+    "radar_id": 0.9795918367346939,
+    "activity": 0.8673469387755102,
+    "sep_cosine": 0.0626134563705554,
+    "geo_mean_corr": 0.14007793032818386,
+    "geo_envelope_corr": 0.09793119038238794
+  },
+  "U3": "NOT AVAILABLE",
+  "delta_U1_vs_U0_rid": 0.0,
+  "delta_U2_vs_U1_rid": -0.04081632653061218,
+  "case": "MEAS-D",
+  "main_source": "HARDWARE/MEASUREMENT OPERATOR",
+  "next_step": "HARDWARE-AWARE MEASUREMENT MODEL",
+  "har_trained": false
+}

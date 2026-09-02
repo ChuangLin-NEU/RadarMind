@@ -1,0 +1,20 @@
+[
+  {
+    "fold": "10_24_to_77",
+    "run_id": "R1_M3_loro_10_24_to_77_adv001",
+    "lambda_adv": 0.01,
+    "best_val_acc": 0.9693877551020408
+  },
+  {
+    "fold": "10_77_to_24",
+    "run_id": "R1_M3_loro_10_77_to_24_adv001",
+    "lambda_adv": 0.01,
+    "best_val_acc": 0.9591836734693877
+  },
+  {
+    "fold": "24_77_to_10",
+    "run_id": "R1_M3_loro_24_77_to_10_adv005",
+    "lambda_adv": 0.05,
+    "best_val_acc": 0.9591836734693877
+  }
+]

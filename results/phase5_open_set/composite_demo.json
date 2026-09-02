@@ -1,0 +1,35 @@
+{
+  "label": "composite replay for open-set demonstration",
+  "not": "original real continuous recording",
+  "held_out": "pose_4",
+  "method": "Prototype",
+  "window_ids": [
+    "subject10_01_pose_1_w0000",
+    "subject10_01_pose_1_w0016",
+    "subject10_01_pose_1_w0032",
+    "subject10_01_pose_1_w0048",
+    "subject3_04_pose_4_w0224",
+    "subject10_12_walk_w0000",
+    "subject10_12_walk_w0016",
+    "subject10_12_walk_w0032",
+    "subject10_12_walk_w0048"
+  ],
+  "events": [
+    {
+      "start": 0,
+      "end": 4,
+      "activity": "pose_1"
+    },
+    {
+      "start": 4,
+      "end": 5,
+      "activity": "UNKNOWN"
+    },
+    {
+      "start": 5,
+      "end": 9,
+      "activity": "walk"
+    }
+  ],
+  "note": "stitched from real subject-independent TEST windows"
+}

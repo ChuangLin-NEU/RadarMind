@@ -1,0 +1,14 @@
+{
+  "n_archive_raw0": 653,
+  "n_usable": 652,
+  "n_excluded_empty": 1,
+  "raw_one_bytes": 131072000,
+  "full_raw_extract_GB": 79.58984375,
+  "airhar_spec_one_bytes": 200704,
+  "full_spec_cache_uncompressed_GB": 0.1218719482421875,
+  "npz_bytes": 27466986,
+  "npz_GB": 0.02557845413684845,
+  "disk_free_GB_on_01_at_estimate": 3056.793083190918,
+  "expansion_if_extract_raw": 1.0,
+  "recommend": "lazy read zip + cache 224x224 float32 (z-scored AIRHAR spec). Do not extract all raw bins."
+}

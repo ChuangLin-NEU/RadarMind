@@ -1,0 +1,8 @@
+{
+  "r1_constructed": true,
+  "r1_source": "PLOTTED_PNG",
+  "physical_alignment": false,
+  "within_radar_reasonable": true,
+  "enter_part_d": true,
+  "reason": "R1 is fair-PNG crop + common post; within-radar Acc>=0.70"
+}

@@ -1,0 +1,14 @@
+run_id,protocol,train_radar,test_radar,method,representation,n_classes,seed,accuracy,macro_f1,n_train,n_val,n_test,best_val_acc,note
+r2_within_10,within_radar,10GHz,10GHz,source_only_ce,R2-D,7,42,0.7755102040816326,0.7465001665001666,229,49,49,0.7755102040816326,R2-D CE within; same HP as Phase 7 source-only
+r2_within_24,within_radar,24GHz,24GHz,source_only_ce,R2-D,7,42,1.0,1.0,229,49,49,0.9591836734693877,R2-D CE within; same HP as Phase 7 source-only
+r2_within_77,within_radar,77GHz,77GHz,source_only_ce,R2-D,7,42,0.8775510204081632,0.8799827623357036,229,49,49,0.9183673469387755,R2-D CE within; same HP as Phase 7 source-only
+r2_cross_10_to_24,single_source_cross_radar,10GHz,24GHz,source_only_ce,R2-D,7,42,0.14285714285714285,0.12798107748846665,229,49,49,0.7755102040816326,R2-D CE; target unused in train/val
+r2_cross_10_to_77,single_source_cross_radar,10GHz,77GHz,source_only_ce,R2-D,7,42,0.12244897959183673,0.03896103896103896,229,49,49,0.7755102040816326,R2-D CE; target unused in train/val
+r2_cross_24_to_10,single_source_cross_radar,24GHz,10GHz,source_only_ce,R2-D,7,42,0.3469387755102041,0.22721454173067077,229,49,49,0.9591836734693877,R2-D CE; target unused in train/val
+r2_cross_24_to_77,single_source_cross_radar,24GHz,77GHz,source_only_ce,R2-D,7,42,0.14285714285714285,0.03636363636363636,229,49,49,0.9591836734693877,R2-D CE; target unused in train/val
+r2_cross_77_to_10,single_source_cross_radar,77GHz,10GHz,source_only_ce,R2-D,7,42,0.24489795918367346,0.15324675324675324,229,49,49,0.9183673469387755,R2-D CE; target unused in train/val
+r2_cross_77_to_24,single_source_cross_radar,77GHz,24GHz,source_only_ce,R2-D,7,42,0.1836734693877551,0.1285714285714286,229,49,49,0.9183673469387755,R2-D CE; target unused in train/val
+r2_loro_10_24_to_77,leave_one_radar_out,10GHz+24GHz,77GHz,source_only_ce,R2-D,7,42,0.14285714285714285,0.03571428571428571,458,98,49,0.9183673469387755,R2-D CE LORO; held-out radar unused in train/val
+r2_loro_10_77_to_24,leave_one_radar_out,10GHz+77GHz,24GHz,source_only_ce,R2-D,7,42,0.10204081632653061,0.07804232804232804,458,98,49,0.9183673469387755,R2-D CE LORO; held-out radar unused in train/val
+r2_loro_24_77_to_10,leave_one_radar_out,24GHz+77GHz,10GHz,source_only_ce,R2-D,7,42,0.30612244897959184,0.20073860221125298,458,98,49,0.9591836734693877,R2-D CE LORO; held-out radar unused in train/val
+r2_shared_ce,multi_radar_shared,10GHz+24GHz+77GHz,10GHz+24GHz+77GHz,source_only_ce,R2-D,7,42,0.9455782312925171,0.9483754439644424,687,147,147,0.9251700680272109,"R2-D CE shared; probes/retrieval only, not a new loss"

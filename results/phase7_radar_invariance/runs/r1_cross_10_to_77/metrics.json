@@ -1,0 +1,18 @@
+{
+  "run_id": "r1_cross_10_to_77",
+  "model": "R1_source_only",
+  "protocol": "acquisition_timestamp_disjoint",
+  "train_radar": "10GHz",
+  "test_radar": "77GHz",
+  "method": "source_only",
+  "representation": "R1",
+  "n_classes": 7,
+  "seed": 42,
+  "accuracy": 0.29411764705882354,
+  "macro_f1": 0.16833890746934224,
+  "n_train": 243,
+  "n_val": 52,
+  "n_test": 51,
+  "best_val_acc": 0.9230769230769231,
+  "note": "R1 fair PNG; source-only; test radar unseen in training"
+}

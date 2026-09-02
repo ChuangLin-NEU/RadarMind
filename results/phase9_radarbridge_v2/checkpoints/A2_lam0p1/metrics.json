@@ -1,0 +1,21 @@
+{
+  "run_id": "A2_lam0p1",
+  "model": "A2_search",
+  "protocol": "known_radar_joint",
+  "lambda_pair": 0.1,
+  "train_radar": "10GHz+24GHz+77GHz",
+  "test_radar": "10GHz+24GHz+77GHz",
+  "accuracy": 0.7074829931972789,
+  "macro_f1": 0.7088383106638684,
+  "acc_10": 0.8979591836734694,
+  "acc_24": 0.9183673469387755,
+  "acc_77": 0.30612244897959184,
+  "n_train": 687,
+  "n_val": 147,
+  "n_test": 147,
+  "best_val_acc": 0.6938775510204082,
+  "adapter_params": 28611,
+  "encoder_params": 11173831,
+  "seed": 42,
+  "note": "adapters + CE + exact-pair; lambda=0.1"
+}

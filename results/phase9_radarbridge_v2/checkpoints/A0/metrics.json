@@ -1,0 +1,21 @@
+{
+  "run_id": "A0",
+  "model": "A0",
+  "protocol": "known_radar_joint",
+  "lambda_pair": 0.0,
+  "train_radar": "10GHz+24GHz+77GHz",
+  "test_radar": "10GHz+24GHz+77GHz",
+  "accuracy": 0.9455782312925171,
+  "macro_f1": 0.9483754439644424,
+  "acc_10": 0.9591836734693877,
+  "acc_24": 0.9183673469387755,
+  "acc_77": 0.9591836734693877,
+  "n_train": 687,
+  "n_val": 147,
+  "n_test": 147,
+  "best_val_acc": 0.9251700680272109,
+  "adapter_params": 0,
+  "encoder_params": 11173831,
+  "seed": 42,
+  "note": "shared encoder only, CE, no radar-specific adapter"
+}

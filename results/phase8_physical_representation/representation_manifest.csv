@@ -1,0 +1,4 @@
+representation,n_samples,source,physical_axes,status
+R0,327x3 PNG,PLOTTED_PNG whole figure,none,FROZEN_PHASE2
+R1,same files cropped,PLOTTED_PNG fair crop,none,FROZEN_PHASE7
+R2,0,none on this host,none,BLOCKED_BY_DATA

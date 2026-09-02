@@ -1,0 +1,17 @@
+name: airhar
+channels:
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
+  - nodefaults
+dependencies:
+  - python=3.11.15
+  - pip
+  - pip:
+    - -r requirements.txt
+
+# airhar is the runtime used for RadarMind v0.2.
+# Install a local CUDA build of torch/torchvision before or after this file.
+# Example (adjust the CUDA wheel index for the machine):
+#   python -m pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
+#   python -m pip install -r requirements.txt
+#   python -m pip install -r requirements-app.txt

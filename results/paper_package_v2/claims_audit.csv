@@ -1,0 +1,13 @@
+claim_id,claim,strength,supporting_file,supporting_metric,manuscript_location
+C01,Within-radar HAR on official plotted spectrograms is substantially stronger than several cross-radar transfers,STRONG,results/phase2_cross_radar/runs/within_24/metrics.json,R0_24_WITHIN vs R0_24_TO_77,Abstract; §3.1; Conclusions
+C02,Three-radar Radar-ID remains recoverable after numerical Doppler reconstruction,STRONG,results/phase8_physical_representation/answers.json,RID_R2D_3CLASS,Abstract; §3.3
+C03,"On the 24/77 GHz pair, velocity-domain alignment only weakly reduces two-class Radar-ID",STRONG,results/phase10_velocity_calibration/answers.json,RID_R2D_2477 → RID_R2V_2477,Abstract; §3.4
+C04,Unified STFT/MTI and first-order calibration are insufficient under their stated gates,STRONG,results/phase10_unified_measurement/answers.json,U1_RID; U2_RID; CBEST_RID; M2_RID,§3.5; Discussion
+C05,Motion state explains part of paired velocity-marginal radar-response variation,LIMITED,results/phase10_motion_conditioned/answers.json,D2477_B1_R2,Abstract; §3.7
+C06,Low-rank 2D modeling of paired differences has a limited TEST oracle ceiling,LIMITED,results/phase10_conditional_2d_measurement/answers.json,ORACLE_R2_2D; K20_TRAIN_VAR,Abstract; §3.8; Conclusions
+C07,Current public paired data lack geometry / acquisition metadata needed for spatial models,STRONG,results/phase10_motion_conditioned/geometry_feasibility_audit.md,range/distance/aspect UNAVAILABLE,Discussion; Conclusions
+U01,A universal radar encoder has been achieved,UNSUPPORTED,,,MUST NOT APPEAR
+U02,Geometry causes the residual domain shift,UNSUPPORTED,results/phase10_motion_conditioned/geometry_feasibility_audit.md,,MUST NOT APPEAR
+U03,10 GHz is on a reliable common velocity axis,UNSUPPORTED,results/phase9_radarbridge_v2/answers.json,EFFECTIVE_FC_UNRESOLVED,MUST NOT APPEAR
+U04,We achieve radar invariance / we solve cross-radar HAR,UNSUPPORTED,,,MUST NOT APPEAR
+U05,"Learn Motion, Not Sensor has been achieved",UNSUPPORTED,,,MUST NOT APPEAR

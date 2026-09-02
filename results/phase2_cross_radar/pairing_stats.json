@@ -1,0 +1,33 @@
+{
+  "N_10GHz": 653,
+  "N_24GHz": 653,
+  "N_77GHz": 653,
+  "paired_10_77": 558,
+  "paired_24_77": 510,
+  "paired_10_24": 504,
+  "paired_10_24_77": 460,
+  "paired_10_24_77_action_agreed": 327,
+  "paired_10_24_77_action_conflict": 133,
+  "triple_action_counts": {
+    "Away": 53,
+    "Bend": 49,
+    "Crawl": 45,
+    "Kneel": 46,
+    "ACTION_MISMATCH": 133,
+    "Pick": 55,
+    "Sit": 45,
+    "Towards": 34
+  },
+  "common_actions_agreed": [
+    "Away",
+    "Bend",
+    "Crawl",
+    "Kneel",
+    "Pick",
+    "Sit",
+    "Towards"
+  ],
+  "conflict_note": "same timestamp but different action folders (often 24GHz Toes vs 10/77 Limp); excluded from fair triple subset",
+  "n_pair_rows": 1790,
+  "n_pair_ids": 652
+}

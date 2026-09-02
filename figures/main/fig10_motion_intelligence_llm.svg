@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="504.983143pt" height="265.795247pt" viewBox="0 0 504.983143 265.795247" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-08-31T15:12:46.906843</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 265.795247 
+L 504.983143 265.795247 
+L 504.983143 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 10.956245 218.53584 
+L 153.693558 218.53584 
+L 153.693558 13.73616 
+L 10.956245 13.73616 
+z
+" clip-path="url(#p4266e07e4d)" style="fill: #ebf1f6"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 23.727478 196.74864 
+L 140.922325 196.74864 
+L 140.922325 127.0296 
+L 23.727478 127.0296 
+z
+" clip-path="url(#p4266e07e4d)" style="fill: #ffffff; stroke: #e7e7e7; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 8.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #555555" x="82.324902" y="23.5404" transform="rotate(-0 82.324902 23.5404)">Model inference</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 7.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #555555" x="82.324902" y="60.57864" transform="rotate(-0 82.324902 60.57864)">Predicted activity: boxing</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 7.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #555555" x="82.324902" y="82.36584" transform="rotate(-0 82.324902 82.36584)">Confidence: 0.999</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 7.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #555555" x="82.324902" y="104.15304" transform="rotate(-0 82.324902 104.15304)">Uncertainty: 0.004</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #3e5f7d" x="82.324902" y="144.45936" transform="rotate(-0 82.324902 144.45936)">boxing</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #555555" x="82.324902" y="166.24656" transform="rotate(-0 82.324902 166.24656)">0–48 s</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #555555" x="82.324902" y="184.76568" transform="rotate(-0 82.324902 184.76568)">24 windows</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_4">
+    <path d="M 179.620417 218.53584 
+L 325.362726 218.53584 
+L 325.362726 13.73616 
+L 179.620417 13.73616 
+z
+" clip-path="url(#p8b9a8ef149)" style="fill: #f4f4f4"/>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 8.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #555555" x="252.491571" y="23.5404" transform="rotate(-0 252.491571 23.5404)">Motion Intelligence</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 6.4px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #555555" x="184.127911" y="44.76588" transform="rotate(-0 184.127911 44.76588)">activity</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 6.4px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #555555" x="245.73033" y="44.76588" transform="rotate(-0 245.73033 44.76588)">boxing</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 5.8px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #5b8db8" x="299.820259" y="44.648271" transform="rotate(-0 299.820259 44.648271)">MODEL</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 6.4px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #555555" x="184.127911" y="62.668884" transform="rotate(-0 184.127911 62.668884)">confidence</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 6.4px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #555555" x="245.73033" y="62.668884" transform="rotate(-0 245.73033 62.668884)">0.999</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 5.8px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #5b8db8" x="299.820259" y="62.513775" transform="rotate(-0 299.820259 62.513775)">MODEL</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 6.4px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #555555" x="184.127911" y="80.496888" transform="rotate(-0 184.127911 80.496888)">uncertainty</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 6.4px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #555555" x="245.73033" y="80.534388" transform="rotate(-0 245.73033 80.534388)">0.004</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 5.8px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #5b8db8" x="299.820259" y="80.379279" transform="rotate(-0 299.820259 80.379279)">MODEL</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 6.4px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #555555" x="184.127911" y="98.401392" transform="rotate(-0 184.127911 98.401392)">peak |v|</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 6.4px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #555555" x="245.73033" y="98.399892" transform="rotate(-0 245.73033 98.399892)">3.073 m s−1</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 5.8px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #6e9f72" x="299.820259" y="98.244783" transform="rotate(-0 299.820259 98.244783)">PHYSICS</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 6.4px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #555555" x="184.127911" y="116.227896" transform="rotate(-0 184.127911 116.227896)">motion energy</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 6.4px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #555555" x="245.73033" y="116.265396" transform="rotate(-0 245.73033 116.265396)">0.176</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 5.8px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #6e9f72" x="299.820259" y="116.110287" transform="rotate(-0 299.820259 116.110287)">PHYSICS</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 6.4px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #555555" x="184.127911" y="134.1309" transform="rotate(-0 184.127911 134.1309)">direction</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 6.4px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #555555" x="245.73033" y="134.1309" transform="rotate(-0 245.73033 134.1309)">UNKNOWN</text>
+   </g>
+   <g id="text_26">
+    <text style="font-size: 5.8px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #9a9a9a" x="299.820259" y="133.975791" transform="rotate(-0 299.820259 133.975791)">UNKNOWN</text>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 6.4px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #555555" x="184.127911" y="151.958904" transform="rotate(-0 184.127911 151.958904)">periodicity</text>
+   </g>
+   <g id="text_28">
+    <text style="font-size: 6.4px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #555555" x="245.73033" y="151.996404" transform="rotate(-0 245.73033 151.996404)">UNKNOWN</text>
+   </g>
+   <g id="text_29">
+    <text style="font-size: 5.8px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #9a9a9a" x="299.820259" y="151.841295" transform="rotate(-0 299.820259 151.841295)">UNKNOWN</text>
+   </g>
+   <g id="text_30">
+    <text style="font-size: 6.4px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #555555" x="184.127911" y="169.824408" transform="rotate(-0 184.127911 169.824408)">subject</text>
+   </g>
+   <g id="text_31">
+    <text style="font-size: 6.4px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #555555" x="245.73033" y="169.861908" transform="rotate(-0 245.73033 169.861908)">UNKNOWN</text>
+   </g>
+   <g id="text_32">
+    <text style="font-size: 5.8px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #9a9a9a" x="299.820259" y="169.706799" transform="rotate(-0 299.820259 169.706799)">UNKNOWN</text>
+   </g>
+   <g id="text_33">
+    <text style="font-size: 6.4px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #555555" x="184.127911" y="187.727412" transform="rotate(-0 184.127911 187.727412)">environment</text>
+   </g>
+   <g id="text_34">
+    <text style="font-size: 6.4px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #555555" x="245.73033" y="187.727412" transform="rotate(-0 245.73033 187.727412)">UNKNOWN</text>
+   </g>
+   <g id="text_35">
+    <text style="font-size: 5.8px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #9a9a9a" x="299.820259" y="187.572303" transform="rotate(-0 299.820259 187.572303)">UNKNOWN</text>
+   </g>
+  </g>
+  <g id="axes_3">
+   <g id="patch_5">
+    <path d="M 351.289585 218.53584 
+L 494.026898 218.53584 
+L 494.026898 13.73616 
+L 351.289585 13.73616 
+z
+" clip-path="url(#pd8d41729d0)" style="fill: #f0f5f0"/>
+   </g>
+   <g id="text_36">
+    <text style="font-weight: 700; font-size: 8.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #555555" x="422.658241" y="23.5404" transform="rotate(-0 422.658241 23.5404)">Grounded language response</text>
+   </g>
+   <g id="text_37">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #555555" x="356.548328" y="52.95312" transform="rotate(-0 356.548328 52.95312)">Question</text>
+   </g>
+   <g id="text_38">
+    <text style="font-size: 7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; fill: #555555" transform="translate(356.548328 68.323492)">Does the timeline contain</text>
+    <text style="font-size: 7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; fill: #555555" transform="translate(356.548328 75.82968)">bend-and-pick?</text>
+   </g>
+   <g id="text_39">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #555555" x="356.548328" y="112.86792" transform="rotate(-0 356.548328 112.86792)">Response</text>
+   </g>
+   <g id="text_40">
+    <text style="font-size: 7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; fill: #555555" transform="translate(356.548328 133.787467)">No bend-and-pick event is</text>
+    <text style="font-size: 7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; fill: #555555" transform="translate(356.548328 141.19128)">present in the current timeline.</text>
+   </g>
+   <g id="text_41">
+    <text style="font-size: 6.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; fill: #9a9a9a" transform="translate(356.548328 181.403441)">available velocity descriptors</text>
+    <text style="font-size: 6.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; fill: #9a9a9a" transform="translate(356.548328 188.03376)">are reported separately.</text>
+   </g>
+  </g>
+  <g id="line2d_1">
+   <path d="M 80.197795 249.5592 
+L 233.268661 249.5592 
+" style="fill: none; stroke-dasharray: 3.2,1.6; stroke-dashoffset: 0; stroke: #9a9a9a; stroke-width: 0.8"/>
+  </g>
+  <g id="line2d_2">
+   <path d="M 274.087559 249.5592 
+L 427.158425 249.5592 
+" style="fill: none; stroke-dasharray: 3.2,1.6; stroke-dashoffset: 0; stroke: #9a9a9a; stroke-width: 0.8"/>
+  </g>
+  <g id="text_42">
+   <text style="font-size: 7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #555555" x="90.40252" y="240.102" transform="rotate(-0 90.40252 240.102)">Model inference</text>
+  </g>
+  <g id="text_43">
+   <text style="font-size: 7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #555555" x="253.67811" y="240.102" transform="rotate(-0 253.67811 240.102)">→  Motion Intelligence  →</text>
+  </g>
+  <g id="text_44">
+   <text style="font-size: 7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #555555" x="416.953701" y="240.102" transform="rotate(-0 416.953701 240.102)">Language output</text>
+  </g>
+  <g id="text_45">
+   <text style="font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #9a9a9a" x="253.67811" y="252.144356" transform="rotate(-0 253.67811 252.144356)">×</text>
+  </g>
+  <g id="text_46">
+   <text style="font-size: 6.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #9a9a9a" x="80.197795" y="257.2272" transform="rotate(-0 80.197795 257.2272)">Raw radar</text>
+  </g>
+  <g id="text_47">
+   <text style="font-size: 6.5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #9a9a9a" x="427.158425" y="257.2272" transform="rotate(-0 427.158425 257.2272)">Language layer</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p4266e07e4d">
+   <rect x="7.2" y="7.2" width="150.249803" height="217.872"/>
+  </clipPath>
+  <clipPath id="p8b9a8ef149">
+   <rect x="177.36667" y="7.2" width="150.249803" height="217.872"/>
+  </clipPath>
+  <clipPath id="pd8d41729d0">
+   <rect x="347.53334" y="7.2" width="150.249803" height="217.872"/>
+  </clipPath>
+ </defs>
+</svg>

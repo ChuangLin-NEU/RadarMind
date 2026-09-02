@@ -1,0 +1,292 @@
+{
+  "geometry_aware": "BLOCKED",
+  "gate": "PASS",
+  "case": "MC-A",
+  "next_step": "CONDITIONAL MEASUREMENT MODEL",
+  "24to77": {
+    "B0": {
+      "r2": 0.21874167481345375,
+      "mae": 1.264504645199368,
+      "corr": 0.4696855269948987
+    },
+    "B1": {
+      "r2": 0.7441869500792979,
+      "mae": 0.6659640600990843,
+      "corr": 0.867858563727466
+    },
+    "estimator": "ridge_1.0"
+  },
+  "77to24": {
+    "B0": {
+      "r2": 0.21874167481345375,
+      "mae": 1.264504645199368,
+      "corr": 0.4696855269948987
+    },
+    "B1": {
+      "r2": 0.5751551184156514,
+      "mae": 0.8757107443838097,
+      "corr": 0.758428007655298
+    },
+    "estimator": "ridge_0.1"
+  },
+  "regions": {
+    "24to77_low_energy_mask_10E": {
+      "direction": "24to77",
+      "region": "low",
+      "scope": "energy_mask_10E",
+      "n_bins": 69,
+      "B0_r2": 0.21874167481345375,
+      "B0_mae": 1.264504645199368,
+      "B0_corr": 0.4696855269948987,
+      "B1_r2": 0.7441869500792979,
+      "B1_mae": 0.6659640600990843,
+      "B1_corr": 0.867858563727466,
+      "note": ""
+    },
+    "24to77_mid_energy_mask_10E": {
+      "direction": "24to77",
+      "region": "mid",
+      "scope": "energy_mask_10E",
+      "n_bins": 0,
+      "B0_r2": "",
+      "B0_mae": "",
+      "B0_corr": "",
+      "B1_r2": "",
+      "B1_mae": "",
+      "B1_corr": "",
+      "note": "no valid bins in 10E energy mask"
+    },
+    "24to77_high_energy_mask_10E": {
+      "direction": "24to77",
+      "region": "high",
+      "scope": "energy_mask_10E",
+      "n_bins": 0,
+      "B0_r2": "",
+      "B0_mae": "",
+      "B0_corr": "",
+      "B1_r2": "",
+      "B1_mae": "",
+      "B1_corr": "",
+      "note": "no valid bins in 10E energy mask"
+    },
+    "77to24_low_energy_mask_10E": {
+      "direction": "77to24",
+      "region": "low",
+      "scope": "energy_mask_10E",
+      "n_bins": 69,
+      "B0_r2": 0.21874167481345375,
+      "B0_mae": 1.264504645199368,
+      "B0_corr": 0.4696855269948987,
+      "B1_r2": 0.5751551184156514,
+      "B1_mae": 0.8757107443838097,
+      "B1_corr": 0.758428007655298,
+      "note": ""
+    },
+    "77to24_mid_energy_mask_10E": {
+      "direction": "77to24",
+      "region": "mid",
+      "scope": "energy_mask_10E",
+      "n_bins": 0,
+      "B0_r2": "",
+      "B0_mae": "",
+      "B0_corr": "",
+      "B1_r2": "",
+      "B1_mae": "",
+      "B1_corr": "",
+      "note": "no valid bins in 10E energy mask"
+    },
+    "77to24_high_energy_mask_10E": {
+      "direction": "77to24",
+      "region": "high",
+      "scope": "energy_mask_10E",
+      "n_bins": 0,
+      "B0_r2": "",
+      "B0_mae": "",
+      "B0_corr": "",
+      "B1_r2": "",
+      "B1_mae": "",
+      "B1_corr": "",
+      "note": "no valid bins in 10E energy mask"
+    },
+    "24to77_low_all_bins_diagnostic": {
+      "direction": "24to77",
+      "region": "low",
+      "scope": "all_bins_diagnostic",
+      "n_bins": 74,
+      "B0_r2": 0.2137483824192722,
+      "B0_mae": 1.257538324486006,
+      "B0_corr": 0.464537771159626,
+      "B1_r2": 0.7439087318236358,
+      "B1_mae": 0.6577418862049641,
+      "B1_corr": 0.868248072840227,
+      "note": "diagnostic ridge_0.1; not used for gate"
+    },
+    "24to77_mid_all_bins_diagnostic": {
+      "direction": "24to77",
+      "region": "mid",
+      "scope": "all_bins_diagnostic",
+      "n_bins": 74,
+      "B0_r2": -0.007352563008078183,
+      "B0_mae": 0.9311824617830351,
+      "B0_corr": 0.08835830104891229,
+      "B1_r2": 0.7658584397954347,
+      "B1_mae": 0.4102880462259791,
+      "B1_corr": 0.8837682073807562,
+      "note": "diagnostic ridge_0.1; not used for gate"
+    },
+    "24to77_high_all_bins_diagnostic": {
+      "direction": "24to77",
+      "region": "high",
+      "scope": "all_bins_diagnostic",
+      "n_bins": 76,
+      "B0_r2": -0.009765214576802128,
+      "B0_mae": 0.8957314059442404,
+      "B0_corr": 0.012988921079787273,
+      "B1_r2": 0.7956019495844101,
+      "B1_mae": 0.38992170651053953,
+      "B1_corr": 0.9035342059310314,
+      "note": "diagnostic ridge_0.1; not used for gate"
+    },
+    "77to24_low_all_bins_diagnostic": {
+      "direction": "77to24",
+      "region": "low",
+      "scope": "all_bins_diagnostic",
+      "n_bins": 74,
+      "B0_r2": 0.2137483824192722,
+      "B0_mae": 1.257538324486006,
+      "B0_corr": 0.464537771159626,
+      "B1_r2": 0.5703527915320306,
+      "B1_mae": 0.8752826092201186,
+      "B1_corr": 0.7552449463939954,
+      "note": "diagnostic ridge_0.1; not used for gate"
+    },
+    "77to24_mid_all_bins_diagnostic": {
+      "direction": "77to24",
+      "region": "mid",
+      "scope": "all_bins_diagnostic",
+      "n_bins": 74,
+      "B0_r2": -0.007352563008078183,
+      "B0_mae": 0.9311824617830351,
+      "B0_corr": 0.08835830104891229,
+      "B1_r2": 0.26704116618133245,
+      "B1_mae": 0.7624553733416506,
+      "B1_corr": 0.5284231984574583,
+      "note": "diagnostic ridge_0.1; not used for gate"
+    },
+    "77to24_high_all_bins_diagnostic": {
+      "direction": "77to24",
+      "region": "high",
+      "scope": "all_bins_diagnostic",
+      "n_bins": 76,
+      "B0_r2": -0.009765214576802128,
+      "B0_mae": 0.8957314059442404,
+      "B0_corr": 0.012988921079787273,
+      "B1_r2": 0.24990428020468058,
+      "B1_mae": 0.7457494740459465,
+      "B1_corr": 0.5140975349038174,
+      "note": "diagnostic ridge_0.1; not used for gate"
+    }
+  },
+  "gate_rule": {
+    "mae_ratio": 0.9,
+    "corr_gain": 0.1
+  },
+  "gate_by_direction": {
+    "24to77": {
+      "val": true,
+      "test": true
+    },
+    "77to24": {
+      "val": true,
+      "test": true
+    }
+  },
+  "top_conditioners": [
+    "sparsity",
+    "velocity_envelope_roughness",
+    "spectral_entropy"
+  ],
+  "top_24to77": [
+    "velocity_spread",
+    "mid_v_energy_frac",
+    "abs_velocity_centroid"
+  ],
+  "top_77to24": [
+    "velocity_envelope_roughness",
+    "sparsity",
+    "spectral_entropy"
+  ],
+  "v_valid_min": -0.8831849472405131,
+  "v_valid_max": 0.9631627931723146,
+  "n_valid_bins": 69,
+  "best_action": "Bend",
+  "worst_action": "Towards",
+  "mask": [
+    {
+      "mask": "none",
+      "mode": "baseline",
+      "radar_id": 0.9387755102040817,
+      "activity": 0.8673469387755102
+    },
+    {
+      "mask": "remove |v|<0.1",
+      "mode": "zero_out_near_zero",
+      "radar_id": 0.9489795918367347,
+      "activity": 0.8469387755102041
+    },
+    {
+      "mask": "keep only |v|<0.1",
+      "mode": "keep_near_zero",
+      "radar_id": 0.7755102040816326,
+      "activity": 0.7346938775510204
+    },
+    {
+      "mask": "remove |v|<0.25",
+      "mode": "zero_out_near_zero",
+      "radar_id": 0.9387755102040817,
+      "activity": 0.8571428571428571
+    },
+    {
+      "mask": "keep only |v|<0.25",
+      "mode": "keep_near_zero",
+      "radar_id": 0.7959183673469388,
+      "activity": 0.7755102040816326
+    },
+    {
+      "mask": "remove |v|<0.5",
+      "mode": "zero_out_near_zero",
+      "radar_id": 0.9489795918367347,
+      "activity": 0.7142857142857143
+    },
+    {
+      "mask": "keep only |v|<0.5",
+      "mode": "keep_near_zero",
+      "radar_id": 0.9387755102040817,
+      "activity": 0.826530612244898
+    }
+  ],
+  "calibration": {
+    "before": {
+      "radar_id": 0.9387755102040817,
+      "vel_rid": 1.0,
+      "activity": 0.8673469387755102
+    },
+    "after": {
+      "radar_id": 1.0,
+      "vel_rid": 1.0,
+      "activity": 0.8571428571428571
+    },
+    "sep_before": 0.10526496628977522,
+    "sep_after": 0.07924203968319193,
+    "geo_before": {
+      "envelope_corr": 0.08822814682656355,
+      "spread_corr": 0.22589860030124942
+    },
+    "geo_after": {
+      "envelope_corr": 0.07511507509040902,
+      "spread_corr": 0.22233555984810638
+    }
+  },
+  "har_trained": false,
+  "kind": "paired known-radar; not unseen-radar DG; not geometry-aware"
+}

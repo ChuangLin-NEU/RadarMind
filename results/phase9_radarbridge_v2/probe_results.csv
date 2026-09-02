@@ -1,0 +1,8 @@
+model,level,activity_probe,radar_id_probe,note
+input_R2D,representation_16x16,0.8639455782312925,0.9931972789115646,R2-D pixels; no encoder
+A0,adapter_output,0.8639455782312925,0.9931972789115646,16x16 of adapter output (A0 = identity)
+A0,shared_embedding,0.9455782312925171,0.9931972789115646,512-D linear probe; train fit / test eval
+A1,adapter_output,0.8707482993197279,1.0,16x16 of adapter output (A0 = identity)
+A1,shared_embedding,0.9319727891156463,1.0,512-D linear probe; train fit / test eval
+A2,adapter_output,0.8367346938775511,0.9863945578231292,16x16 of adapter output (A0 = identity)
+A2,shared_embedding,0.9251700680272109,1.0,512-D linear probe; train fit / test eval

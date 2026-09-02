@@ -1,0 +1,17 @@
+{
+  "run_id": "r2_loro_24_77_to_10",
+  "protocol": "leave_one_radar_out",
+  "train_radar": "24GHz+77GHz",
+  "test_radar": "10GHz",
+  "method": "source_only_ce",
+  "representation": "R2-D",
+  "n_classes": 7,
+  "seed": 42,
+  "accuracy": 0.30612244897959184,
+  "macro_f1": 0.20073860221125298,
+  "n_train": 458,
+  "n_val": 98,
+  "n_test": 49,
+  "best_val_acc": 0.9591836734693877,
+  "note": "R2-D CE LORO; held-out radar unused in train/val"
+}

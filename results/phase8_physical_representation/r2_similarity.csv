@@ -1,0 +1,4 @@
+representation,same_pair_mean,diff_pair_mean,n_same,n_diff
+R1,0.7742601546490229,0.7378200884759426,981,2000
+R2-D,0.9170241129264676,0.913235534965992,981,2000
+R2-V,,,,not built

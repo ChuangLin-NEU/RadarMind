@@ -1,0 +1,2 @@
+pair_kind,metric,value,note
+same_acquisition_cross_radar,R2_not_computed,,Need R2 arrays. Do not compute similarity on PNG and call it physical.

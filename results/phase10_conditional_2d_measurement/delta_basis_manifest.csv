@@ -1,0 +1,3 @@
+direction,selected_k,train_explained_var,val_recon_mae,n_pixels,note
+24to77,20,0.48969790078241354,1.3206248699095082,50176,K by VAL recon MAE only; TEST unused
+77to24,20,0.48969790078241354,1.3206248699095082,50176,K by VAL recon MAE only; TEST unused

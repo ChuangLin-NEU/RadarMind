@@ -1,0 +1,10 @@
+kind,value
+best_model,M2
+residual_spectrum_l2,36.96799850463867
+residual_velocity_l2,0.42862993478775024
+residual_temporal_l2,1.2557729482650757
+higher_order_radar_id_M0,0.9897959183673469
+higher_order_radar_id_best,1.0
+best_global_rid,0.9693877551020408
+best_vel_rid,0.9285714285714286
+best_temporal_rid,0.8061224489795918

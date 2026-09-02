@@ -1,0 +1,16 @@
+{
+  "run_id": "within_10",
+  "protocol": "acquisition_timestamp_disjoint",
+  "train_radar": "10GHz",
+  "test_radar": "10GHz",
+  "method": "source_only",
+  "n_classes": 7,
+  "seed": 42,
+  "accuracy": 0.8431372549019608,
+  "macro_f1": 0.8545112781954888,
+  "n_train": 243,
+  "n_val": 52,
+  "n_test": 51,
+  "best_val_acc": 0.9230769230769231,
+  "note": "source-only; test radar unseen in training"
+}

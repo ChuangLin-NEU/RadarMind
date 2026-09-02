@@ -1,0 +1,20 @@
+{
+  "run_id": "R1_M3_shared",
+  "model": "M3",
+  "protocol": "multi_radar_shared",
+  "train_radars": "10GHz+24GHz+77GHz",
+  "test_radar": "all",
+  "lambda_contrast": 0.1,
+  "lambda_adv": 0.05,
+  "representation": "R1",
+  "seed": 42,
+  "n_train_acq": 229,
+  "n_val_acq": 49,
+  "n_test_acq": 49,
+  "n_train_views": 687,
+  "best_val_acc": 0.9523809523809523,
+  "activity_accuracy": 0.9047619047619048,
+  "macro_f1": 0.905352518887,
+  "status": "ok",
+  "note": "Task A on R1; train 10+24+77 train acq only; CE+contrast+GRL adv=0.05; selected R1_M3_adv005 by source val"
+}

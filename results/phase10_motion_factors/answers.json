@@ -1,0 +1,78 @@
+{
+  "n_factors": 38,
+  "most_radar_stable": [
+    "sparsity",
+    "spectral_entropy",
+    "temporal_entropy",
+    "dominant_temporal_freq",
+    "autocorr_peak"
+  ],
+  "most_radar_specific": [
+    "peak_doppler_magnitude",
+    "n_temporal_peaks",
+    "sparsity",
+    "temporal_energy_mean",
+    "doppler_envelope_roughness"
+  ],
+  "most_activity_informative": [
+    "abs_doppler_centroid_hz",
+    "low_doppler_energy_frac",
+    "mid_doppler_energy_frac",
+    "high_doppler_energy_frac",
+    "doppler_std_hz"
+  ],
+  "ideal_high_act_low_radar": [
+    "dominant_temporal_freq",
+    "temporal_energy_range",
+    "temporal_energy_std",
+    "high_doppler_energy_frac"
+  ],
+  "stable_subset": [
+    "sparsity",
+    "spectral_entropy",
+    "temporal_entropy",
+    "dominant_temporal_freq",
+    "autocorr_peak",
+    "doppler_std_hz",
+    "periodicity_score",
+    "time_centroid"
+  ],
+  "activity_top_subset": [
+    "abs_doppler_centroid_hz",
+    "low_doppler_energy_frac",
+    "mid_doppler_energy_frac",
+    "high_doppler_energy_frac",
+    "doppler_std_hz",
+    "peak_to_mean_ratio",
+    "time_spread",
+    "temporal_energy_range"
+  ],
+  "radar_specific_subset": [
+    "peak_doppler_magnitude",
+    "n_temporal_peaks",
+    "sparsity",
+    "temporal_energy_mean",
+    "doppler_envelope_roughness",
+    "temporal_entropy",
+    "active_duration_frac",
+    "energy_offset_tau"
+  ],
+  "probe_all_activity": 0.6870748299319728,
+  "probe_all_radar": 1.0,
+  "probe_stable_activity": 0.4897959183673469,
+  "probe_stable_radar": 0.9591836734693877,
+  "pair_factors": 1.1813566272727225,
+  "pair_r2": 0.645297937247218,
+  "action_best": "Kneel",
+  "action_worst": "Towards",
+  "pair_shift": {
+    "10_24": 1.0880693394379013,
+    "10_77": 1.202664427409165,
+    "24_77": 1.2450799013845644
+  },
+  "case": "B",
+  "next_step": "SENSOR CALIBRATION",
+  "low_hz": 32.0,
+  "mid_hz": 128.0,
+  "k_subset": 8
+}

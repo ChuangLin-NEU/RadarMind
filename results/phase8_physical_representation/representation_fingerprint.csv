@@ -1,0 +1,7 @@
+representation,kind,radar_id_accuracy,n_test,note
+R0,pixels_16x16_logreg,1.0,151,Phase 7; official PNG 224
+R1,pixels_16x16_logreg,1.0,151,Phase 7; cropped PNG 224
+R2,not_run,,,R2 not built; BLOCKED_BY_DATA on this host
+R0,motion_embedding_probe,1.0,,Phase 3 M0; frozen
+R1,motion_embedding_probe,1.0,,Phase 7 M0; frozen
+R2,motion_embedding_probe,,,Gate 2 failed; no HAR train

@@ -1,0 +1,6 @@
+representation,same_acq_mean,diff_acq_mean,n,note
+R2-D_16x16,0.645297937247218,,147,cosine distance on 16x16 R2
+A0_embedding,0.08585922420024872,,147,Phase 9 frozen
+A2_embedding,0.14124566316604614,,147,Phase 9 frozen
+MotionFactors_global,1.1813566272727225,1.1559968080047551,147,global TRAIN z-score factor cosine distance
+MotionFactors_stable,1.1228836312594164,1.2365917846314751,147,stable subset cosine distance

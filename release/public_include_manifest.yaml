@@ -1,0 +1,73 @@
+# Publication include list. Paths are relative to the repository root.
+# Files that do not exist are not required.
+# Gitignore still applies: binaries, caches, secrets, and drafts stay out.
+
+version: 1
+visibility: private
+note: >
+  First scientific commit contents. Directory entries mean all non-ignored
+  files under that directory. Do not invent missing packages.
+
+include:
+  - radarmind/
+  - scripts/
+  - src/paper/
+  - data_splits/
+  - docs/
+  - tests/
+  - figures/main/
+  - release/
+  - results/frozen_2026_08/
+  - results/final_delivery/metric_snapshot_full.json
+  - results/paper_package_v2/
+  - results/phase1_ci4r/
+  - results/phase1_pointcloud/
+  - results/phase2_cross_radar/
+  - results/phase3_shared_motion/
+  - results/phase4_continuous/
+  - results/phase5_open_set/
+  - results/phase7_radar_invariance/
+  - results/phase8_physical_representation/
+  - results/phase9_radarbridge_v2/
+  - results/phase10_motion_factors/
+  - results/phase10_sensor_calibration/
+  - results/phase10_velocity_calibration/
+  - results/phase10_unified_measurement/
+  - results/phase10_hardware_measurement/
+  - results/phase10_motion_conditioned/
+  - results/phase10_conditional_2d_measurement/
+  - results/phase10_closure/
+  - run_radarmind.py
+  - run_radarmind_offline.py
+  - run_continuous_demo.py
+  - run_cross_radar_experiments.py
+  - run_open_set_experiments.py
+  - run_phase9.py
+  - run_r2_benchmark.py
+  - run_shared_motion_experiments.py
+  - smoke_test_all.py
+  - validate_paper_package_v2.py
+  - README.md
+  - README_RADARMIND.md
+  - CONTRIBUTORS.md
+  - CITATION.cff
+  - CONTRIBUTING.md
+  - SECURITY.md
+  - CODE_OF_CONDUCT.md
+  - LICENSE
+  - .gitignore
+  - .env.example
+  - requirements.txt
+  - requirements-app.txt
+  - requirements-dev.txt
+  - environment.yml
+  - reports/public_release_audit.md
+  - reports/repo_size_audit.md
+  - reports/security_audit.md
+  - reports/third_party_audit.md
+
+not_present_do_not_require:
+  - configs/
+  - pyproject.toml
+  - apps/research_app/
+  - LICENSE

@@ -1,0 +1,10 @@
+model,protocol,train_radars,test_radar,activity_accuracy,macro_f1,activity_probe_accuracy,activity_probe_macro_f1,radar_probe_accuracy,radar_probe_macro_f1,retrieval_exact_top1,retrieval_exact_top5,retrieval_action_top1,retrieval_action_top5,note
+M0,multi_radar_shared,10+24+77,all,0.7687074829931972,0.7486693203903906,0.9183673469387755,0.9216312672713228,1.0,1.0,0.12585034013605442,0.5204081632653061,0.7176870748299319,0.9183673469387754,"probes: linear, fit train embeddings, eval test; retrieval mean over 6 directed pairs"
+M1,multi_radar_shared,10+24+77,all,0.9319727891156463,0.9371482176360225,0.9523809523809523,0.9553120330178608,1.0,1.0,0.19047619047619047,0.7551020408163266,0.935374149659864,0.9897959183673469,"probes: linear, fit train embeddings, eval test; retrieval mean over 6 directed pairs"
+M2,multi_radar_shared,10+24+77,all,0.8775510204081632,0.8844408318092529,0.9523809523809523,0.9548840048840049,1.0,1.0,0.23129251700680273,0.6972789115646258,0.8639455782312924,0.9829931972789118,"probes: linear, fit train embeddings, eval test; retrieval mean over 6 directed pairs"
+M0,leave_one_radar_out,10+24,77GHz,0.3469387755102041,0.2151360544217687,,,,,,,,,LORO; 77GHz unused in train/val/norm/contrastive; n_test=49
+M2,leave_one_radar_out,10+24,77GHz,0.20408163265306123,0.10216450216450215,,,,,,,,,LORO; 77GHz unused in train/val/norm/contrastive; n_test=49
+M0,leave_one_radar_out,10+77,24GHz,0.14285714285714285,0.03571428571428571,,,,,,,,,LORO; 24GHz unused in train/val/norm/contrastive; n_test=49
+M2,leave_one_radar_out,10+77,24GHz,0.14285714285714285,0.03571428571428571,,,,,,,,,LORO; 24GHz unused in train/val/norm/contrastive; n_test=49
+M0,leave_one_radar_out,24+77,10GHz,0.3673469387755102,0.22180328631941534,,,,,,,,,LORO; 10GHz unused in train/val/norm/contrastive; n_test=49
+M2,leave_one_radar_out,24+77,10GHz,0.3673469387755102,0.26535038249809045,,,,,,,,,LORO; 10GHz unused in train/val/norm/contrastive; n_test=49

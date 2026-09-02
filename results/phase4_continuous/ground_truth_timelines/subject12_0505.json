@@ -1,0 +1,302 @@
+{
+  "recording": "subject12_0505",
+  "subject": "subject12",
+  "source_file": "subject12_0505.csv",
+  "split": "train",
+  "frame_min": 1,
+  "frame_max": 7760,
+  "frame_rate": 9.571537635877492,
+  "label_rule": "JSON integers are Frame # inclusive. Time column is not used.",
+  "unlabeled_policy": "UNLABELED intervals are kept. They are not assigned to neighboring actions.",
+  "events": [
+    {
+      "start_frame": 1,
+      "end_frame": 194,
+      "activity": "UNLABELED",
+      "start_time": 0.10447642145308482,
+      "end_time": 20.372902183351542,
+      "n_frames": 194,
+      "source": "videolabels Frame #"
+    },
+    {
+      "start_frame": 195,
+      "end_frame": 231,
+      "activity": "T pose",
+      "action_raw": "T pose",
+      "action_segment_id": "subject12_00_T_pose",
+      "start_time": 20.372902183351542,
+      "end_time": 24.23852977711568,
+      "n_frames": 37,
+      "source": "videolabels Frame #"
+    },
+    {
+      "start_frame": 232,
+      "end_frame": 250,
+      "activity": "UNLABELED",
+      "start_time": 24.23852977711568,
+      "end_time": 26.22358178472429,
+      "n_frames": 19,
+      "source": "videolabels Frame #"
+    },
+    {
+      "start_frame": 251,
+      "end_frame": 781,
+      "activity": "pose_1",
+      "action_raw": "pose_1",
+      "action_segment_id": "subject12_01_pose_1",
+      "start_time": 26.22358178472429,
+      "end_time": 81.70056157631232,
+      "n_frames": 531,
+      "source": "videolabels Frame #"
+    },
+    {
+      "start_frame": 782,
+      "end_frame": 782,
+      "activity": "UNLABELED",
+      "start_time": 81.70056157631232,
+      "end_time": 81.80503799776541,
+      "n_frames": 1,
+      "source": "videolabels Frame #"
+    },
+    {
+      "start_frame": 783,
+      "end_frame": 1332,
+      "activity": "pose_2",
+      "action_raw": "pose_2",
+      "action_segment_id": "subject12_02_pose_2",
+      "start_time": 81.80503799776541,
+      "end_time": 139.26706979696206,
+      "n_frames": 550,
+      "source": "videolabels Frame #"
+    },
+    {
+      "start_frame": 1333,
+      "end_frame": 1333,
+      "activity": "UNLABELED",
+      "start_time": 139.26706979696206,
+      "end_time": 139.37154621841515,
+      "n_frames": 1,
+      "source": "videolabels Frame #"
+    },
+    {
+      "start_frame": 1334,
+      "end_frame": 1877,
+      "activity": "pose_3",
+      "action_raw": "pose_3",
+      "action_segment_id": "subject12_03_pose_3",
+      "start_time": 139.37154621841515,
+      "end_time": 196.2067194888933,
+      "n_frames": 544,
+      "source": "videolabels Frame #"
+    },
+    {
+      "start_frame": 1878,
+      "end_frame": 1879,
+      "activity": "UNLABELED",
+      "start_time": 196.2067194888933,
+      "end_time": 196.41567233179947,
+      "n_frames": 2,
+      "source": "videolabels Frame #"
+    },
+    {
+      "start_frame": 1880,
+      "end_frame": 2420,
+      "activity": "pose_4",
+      "action_raw": "pose_4",
+      "action_segment_id": "subject12_04_pose_4",
+      "start_time": 196.41567233179947,
+      "end_time": 252.93741633791836,
+      "n_frames": 541,
+      "source": "videolabels Frame #"
+    },
+    {
+      "start_frame": 2421,
+      "end_frame": 2425,
+      "activity": "UNLABELED",
+      "start_time": 252.93741633791836,
+      "end_time": 253.45979844518376,
+      "n_frames": 5,
+      "source": "videolabels Frame #"
+    },
+    {
+      "start_frame": 2426,
+      "end_frame": 2966,
+      "activity": "pose_5",
+      "action_raw": "pose_5",
+      "action_segment_id": "subject12_05_pose_5",
+      "start_time": 253.45979844518376,
+      "end_time": 309.9815424513027,
+      "n_frames": 541,
+      "source": "videolabels Frame #"
+    },
+    {
+      "start_frame": 2967,
+      "end_frame": 2968,
+      "activity": "UNLABELED",
+      "start_time": 309.9815424513027,
+      "end_time": 310.19049529420886,
+      "n_frames": 2,
+      "source": "videolabels Frame #"
+    },
+    {
+      "start_frame": 2969,
+      "end_frame": 3503,
+      "activity": "pose_6",
+      "action_raw": "pose_6",
+      "action_segment_id": "subject12_06_pose_6",
+      "start_time": 310.19049529420886,
+      "end_time": 366.0853807716092,
+      "n_frames": 535,
+      "source": "videolabels Frame #"
+    },
+    {
+      "start_frame": 3504,
+      "end_frame": 3505,
+      "activity": "UNLABELED",
+      "start_time": 366.0853807716092,
+      "end_time": 366.2943336145154,
+      "n_frames": 2,
+      "source": "videolabels Frame #"
+    },
+    {
+      "start_frame": 3506,
+      "end_frame": 4046,
+      "activity": "pose_7",
+      "action_raw": "pose_7",
+      "action_segment_id": "subject12_07_pose_7",
+      "start_time": 366.2943336145154,
+      "end_time": 422.81607762063425,
+      "n_frames": 541,
+      "source": "videolabels Frame #"
+    },
+    {
+      "start_frame": 4047,
+      "end_frame": 4052,
+      "activity": "UNLABELED",
+      "start_time": 422.81607762063425,
+      "end_time": 423.44293614935276,
+      "n_frames": 6,
+      "source": "videolabels Frame #"
+    },
+    {
+      "start_frame": 4053,
+      "end_frame": 4580,
+      "activity": "pose_8",
+      "action_raw": "pose_8",
+      "action_segment_id": "subject12_08_pose_8",
+      "start_time": 423.44293614935276,
+      "end_time": 478.6064866765816,
+      "n_frames": 528,
+      "source": "videolabels Frame #"
+    },
+    {
+      "start_frame": 4581,
+      "end_frame": 4582,
+      "activity": "UNLABELED",
+      "start_time": 478.6064866765816,
+      "end_time": 478.8154395194877,
+      "n_frames": 2,
+      "source": "videolabels Frame #"
+    },
+    {
+      "start_frame": 4583,
+      "end_frame": 5130,
+      "activity": "pose_9",
+      "action_raw": "pose_9",
+      "action_segment_id": "subject12_09_pose_9",
+      "start_time": 478.8154395194877,
+      "end_time": 536.0685184757782,
+      "n_frames": 548,
+      "source": "videolabels Frame #"
+    },
+    {
+      "start_frame": 5131,
+      "end_frame": 5131,
+      "activity": "UNLABELED",
+      "start_time": 536.0685184757782,
+      "end_time": 536.1729948972313,
+      "n_frames": 1,
+      "source": "videolabels Frame #"
+    },
+    {
+      "start_frame": 5132,
+      "end_frame": 5664,
+      "activity": "pose_10",
+      "action_raw": "pose_10",
+      "action_segment_id": "subject12_10_pose_10",
+      "start_time": 536.1729948972313,
+      "end_time": 591.8589275317255,
+      "n_frames": 533,
+      "source": "videolabels Frame #"
+    },
+    {
+      "start_frame": 5665,
+      "end_frame": 5669,
+      "activity": "UNLABELED",
+      "start_time": 591.8589275317255,
+      "end_time": 592.381309638991,
+      "n_frames": 5,
+      "source": "videolabels Frame #"
+    },
+    {
+      "start_frame": 5670,
+      "end_frame": 6200,
+      "activity": "free_form",
+      "action_raw": "free_form",
+      "action_segment_id": "subject12_11_free_form",
+      "start_time": 592.381309638991,
+      "end_time": 647.858289430579,
+      "n_frames": 531,
+      "source": "videolabels Frame #"
+    },
+    {
+      "start_frame": 6201,
+      "end_frame": 6201,
+      "activity": "UNLABELED",
+      "start_time": 647.858289430579,
+      "end_time": 647.962765852032,
+      "n_frames": 1,
+      "source": "videolabels Frame #"
+    },
+    {
+      "start_frame": 6202,
+      "end_frame": 6720,
+      "activity": "walk",
+      "action_raw": "walk",
+      "action_segment_id": "subject12_12_walk",
+      "start_time": 647.962765852032,
+      "end_time": 702.186028586183,
+      "n_frames": 519,
+      "source": "videolabels Frame #"
+    },
+    {
+      "start_frame": 6721,
+      "end_frame": 6739,
+      "activity": "UNLABELED",
+      "start_time": 702.186028586183,
+      "end_time": 704.1710805937917,
+      "n_frames": 19,
+      "source": "videolabels Frame #"
+    },
+    {
+      "start_frame": 6740,
+      "end_frame": 6753,
+      "activity": "T pose",
+      "action_raw": "T pose 2",
+      "action_segment_id": "subject12_13_T_pose_2",
+      "start_time": 704.1710805937917,
+      "end_time": 705.6337504941349,
+      "n_frames": 14,
+      "source": "videolabels Frame #"
+    },
+    {
+      "start_frame": 6754,
+      "end_frame": 7760,
+      "activity": "UNLABELED",
+      "start_time": 705.6337504941349,
+      "end_time": 810.8415068973914,
+      "n_frames": 1007,
+      "source": "videolabels Frame #"
+    }
+  ]
+}

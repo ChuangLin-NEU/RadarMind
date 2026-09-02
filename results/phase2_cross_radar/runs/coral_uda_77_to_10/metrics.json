@@ -1,0 +1,16 @@
+{
+  "run_id": "coral_uda_77_to_10",
+  "protocol": "acquisition_timestamp_disjoint",
+  "train_radar": "77GHz",
+  "test_radar": "10GHz",
+  "method": "coral_uda",
+  "n_classes": 7,
+  "seed": 42,
+  "accuracy": 0.19607843137254902,
+  "macro_f1": 0.1082766439909297,
+  "n_train": 233,
+  "n_val": 50,
+  "n_test": 51,
+  "best_val_acc": 0.8,
+  "note": "UDA uses target train unlabeled only"
+}

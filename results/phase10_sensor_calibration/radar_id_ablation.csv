@@ -1,0 +1,6 @@
+features,n_dim,radar_id,activity,note
+global_stats,6,0.9591836734693877,0.3129251700680272,logistic; TRAIN fit / TEST eval; known-radar identity available as label only
+doppler_marginal,224,1.0,0.7074829931972789,logistic; TRAIN fit / TEST eval; known-radar identity available as label only
+temporal_marginal,224,0.8707482993197279,0.3945578231292517,logistic; TRAIN fit / TEST eval; known-radar identity available as label only
+motion_factors,38,1.0,0.6870748299319728,logistic; TRAIN fit / TEST eval; known-radar identity available as label only
+r2_16x16,256,0.9931972789115646,0.8639455782312925,logistic; TRAIN fit / TEST eval; known-radar identity available as label only

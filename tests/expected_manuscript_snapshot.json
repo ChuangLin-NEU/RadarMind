@@ -1,0 +1,32 @@
+{
+  "source": "results/final_delivery/metric_snapshot_full.json",
+  "note": "Frozen paper display contract. Tests compare source files to the snapshot, then snapshot displays to these strings.",
+  "display": {
+    "MRI_SI_ACC": "0.478",
+    "MRI_SI_F1": "0.420",
+    "RADHAR_XYZV_ACC": "0.949",
+    "RADHAR_XYZV_F1": "0.949",
+    "R0_10_WITHIN": "0.843",
+    "R0_24_WITHIN": "0.898",
+    "R0_77_WITHIN": "0.922",
+    "R0_10_TO_24": "0.143",
+    "R0_10_TO_77": "0.373",
+    "R0_24_TO_10": "0.353",
+    "R0_24_TO_77": "0.039",
+    "R0_77_TO_10": "0.275",
+    "R0_77_TO_24": "0.163",
+    "M1_ACC": "0.932",
+    "M1_RET": "0.935",
+    "M1_RID": "1.000",
+    "RID_R2D_3CLASS": "0.993",
+    "RID_R2V_2477": "0.939",
+    "CONT_FRAME_ACC": "0.489",
+    "CONT_FRAME_F1": "0.416",
+    "CONT_WIN_ACC": "0.494",
+    "CONT_WIN_F1": "0.419",
+    "CONT_SEG_F1": "0.152",
+    "CONT_BND_SEC": "20.6",
+    "PROTO_AUROC": "0.628",
+    "PROTO_AUROC_STD": "0.125"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "A_numerical_source": false,
+  "B_physical_axes_evidence": false,
+  "C_common_grid": false,
+  "D_sanity_plots": false,
+  "enter_min_train": false,
+  "reason": "Raw/MAT members listed in archive but not extracted here. Phase1 77 GHz 224 cache is not a physical grid."
+}

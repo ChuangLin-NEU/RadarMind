@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="416.16pt" height="258.336pt" viewBox="0 0 416.16 258.336" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-08-31T14:55:18.227659</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 258.336 
+L 416.16 258.336 
+L 416.16 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 13.108235 94.490824 
+L 277.009412 94.490824 
+L 277.009412 14.374588 
+L 13.108235 14.374588 
+z
+" clip-path="url(#p15a59721ed)" style="fill: #f3f6f8"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 13.108235 173.411294 
+L 277.009412 173.411294 
+L 277.009412 96.882353 
+L 13.108235 96.882353 
+z
+" clip-path="url(#p15a59721ed)" style="fill: #f7f3ea"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 13.108235 246.352941 
+L 277.009412 246.352941 
+L 277.009412 175.802824 
+L 13.108235 175.802824 
+z
+" clip-path="url(#p15a59721ed)" style="fill: #f4eee8"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 68.251765 51.443294 
+L 221.865882 51.443294 
+L 221.865882 28.723765 
+L 68.251765 28.723765 
+z
+" clip-path="url(#p15a59721ed)" style="fill: #ffffff; stroke: #222222; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 68.251765 87.316235 
+L 221.865882 87.316235 
+L 221.865882 66.988235 
+L 68.251765 66.988235 
+z
+" clip-path="url(#p15a59721ed)" style="fill: #ffffff; stroke: #222222; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 68.251765 127.972235 
+L 221.865882 127.972235 
+L 221.865882 107.644235 
+L 68.251765 107.644235 
+z
+" clip-path="url(#p15a59721ed)" style="fill: #ffffff; stroke: #222222; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 68.251765 166.236706 
+L 221.865882 166.236706 
+L 221.865882 145.908706 
+L 68.251765 145.908706 
+z
+" clip-path="url(#p15a59721ed)" style="fill: #ffffff; stroke: #222222; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 68.251765 223.633412 
+L 221.865882 223.633412 
+L 221.865882 200.913882 
+L 68.251765 200.913882 
+z
+" clip-path="url(#p15a59721ed)" style="fill: #ffffff; stroke: #222222; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 284.887059 217.654588 
+L 401.082353 217.654588 
+L 401.082353 40.681412 
+L 284.887059 40.681412 
+L 284.887059 217.654588 
+z
+" clip-path="url(#p15a59721ed)" style="fill: none; stroke-dasharray: 2.7,1.8; stroke-dashoffset: 0; stroke: #666666; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 28.863529 40.203106 
+L 60.374118 40.203106 
+" clip-path="url(#p15a59721ed)" style="fill: none; stroke: #222222; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 28.863529 40.203106 
+L 28.863529 212.393224 
+" clip-path="url(#p15a59721ed)" style="fill: none; stroke: #222222; stroke-linecap: square"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: start; fill: #222222" x="19.016471" y="20.353412" transform="rotate(-0 19.016471 20.353412)">Layer I  Recognition and generalization</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: start; fill: #222222" x="19.016471" y="102.861176" transform="rotate(-0 19.016471 102.861176)">Layer II  Shared representation and motion descriptors</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: start; fill: #222222" x="19.016471" y="181.781647" transform="rotate(-0 19.016471 181.781647)">Layer III  Structured language interface</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 7.5px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: middle; fill: #222222" x="145.058824" y="42.123764" transform="rotate(-0 145.058824 42.123764)">Raw radar / spectrogram / point cloud</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; fill: #222222" transform="translate(122.976011 75.022587)">Recognition</text>
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; fill: #222222" transform="translate(84.844956 83.420946)">HAR · subject tests · cross-radar</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; fill: #222222" transform="translate(109.334214 115.678587)">Motion Intelligence</text>
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; fill: #222222" transform="translate(74.422886 124.076946)">activity, confidence, UNKNOWN fields</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; fill: #222222" transform="translate(129.11605 153.943057)">Timeline</text>
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; fill: #222222" transform="translate(86.128159 162.341417)">merged labeled-interval events</text>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 7.5px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; fill: #222222" transform="translate(112.515269 210.085405)">Language layer</text>
+    <text style="font-weight: 700; font-size: 7.5px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; fill: #222222" transform="translate(111.210386 218.542358)">reads JSON only</text>
+   </g>
+   <g id="patch_11">
+    <path d="M 145.058824 53.440653 
+Q 145.058824 58.974994 145.058824 63.279497 
+" style="fill: none; stroke: #222222; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 146.658824 60.079497 
+L 145.058824 63.279497 
+L 143.458824 60.079497 
+z
+" style="fill: #222222; stroke: #222222; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 145.058824 89.317682 
+Q 145.058824 97.241763 145.058824 103.936008 
+" style="fill: none; stroke: #222222; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 146.658824 100.736008 
+L 145.058824 103.936008 
+L 143.458824 100.736008 
+z
+" style="fill: #222222; stroke: #222222; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 145.058824 129.971229 
+Q 145.058824 136.702536 145.058824 142.204005 
+" style="fill: none; stroke: #222222; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 146.658824 139.004005 
+L 145.058824 142.204005 
+L 143.458824 139.004005 
+z
+" style="fill: #222222; stroke: #222222; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 145.058824 168.236371 
+Q 145.058824 183.335645 145.058824 197.20508 
+" style="fill: none; stroke: #222222; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 146.658824 194.00508 
+L 145.058824 197.20508 
+L 143.458824 194.00508 
+z
+" style="fill: #222222; stroke: #222222; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 30.859867 212.393224 
+Q 44.617211 212.393224 57.256522 212.393224 
+" style="fill: none; stroke: #222222; stroke-linecap: round"/>
+    <path d="M 54.056522 210.793224 
+L 57.256522 212.393224 
+L 54.056522 213.993224 
+z
+" style="fill: #222222; stroke: #222222; stroke-linecap: round"/>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 6.5px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; fill: #666666" transform="translate(21.897364 137.843228) rotate(-90)">no raw</text>
+    <text style="font-size: 6.5px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; fill: #666666" transform="translate(29.175942 135.495103) rotate(-90)">radar</text>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; text-anchor: middle; fill: #666666" x="342.787765" y="49.051765" transform="rotate(-0 342.787765 49.051765)">Unresolved</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 7.2px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; fill: #222222" transform="translate(318.681265 95.761674)">unseen-radar</text>
+    <text style="font-size: 7.2px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; fill: #222222" transform="translate(317.113015 103.824099)">generalization</text>
+    <text style="font-size: 7.2px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; fill: #222222" transform="translate(342.787765 111.886524)"/>
+    <text style="font-size: 7.2px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; fill: #222222" transform="translate(323.32639 119.948949)">full-stream</text>
+    <text style="font-size: 7.2px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; fill: #222222" transform="translate(304.991702 128.011374)">continuous inference</text>
+    <text style="font-size: 7.2px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; fill: #222222" transform="translate(342.787765 136.073799)"/>
+    <text style="font-size: 7.2px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; fill: #222222" transform="translate(312.532015 144.136224)">strong unknown-</text>
+    <text style="font-size: 7.2px; font-family: 'DejaVu Sans', 'Arial', 'Helvetica', sans-serif; fill: #222222" transform="translate(312.036452 152.198649)">motion detection</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p15a59721ed">
+   <rect x="7.2" y="7.2" width="401.76" height="243.936"/>
+  </clipPath>
+ </defs>
+</svg>
